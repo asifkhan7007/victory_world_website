@@ -1,0 +1,18 @@
+Ludo gameplay audio effects
+
+Source: Kenney Casino Audio 1.1
+Creator: Kenney Vleugels (Kenney.nl)
+Source page: https://kenney.nl/assets/casino-audio
+Archive mirror: https://opengameart.org/content/54-casino-sound-effects-cards-dice-chips
+
+License: Creative Commons Zero (CC0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+These assets may be used in personal and commercial projects.
+Credit is appreciated but not required.
+
+Victory World mappings:
+- ludo_dice_roll.wav: dice-throw-1.ogg
+- ludo_token_move.wav: chip-lay-2.ogg
+- ludo_capture.wav: chips-collide-3.ogg
+- ludo_token_home.wav: chips-stack-3.ogg
