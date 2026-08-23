@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05070d">
+
+  <title>Rules & How to Play | Victory World</title>
+
+  <meta
+    name="description"
+    content="Learn the official Victory World rules and how to play Teen Patti, Indian Rummy, Poker, Blackjack, and Ludo."
+  >
+
+  <link rel="icon" href="assets/images/victory_world_logo.png">
+  <link rel="stylesheet" href="css/rules.css">
+</head>
+
+<body>
+  <header class="rules-header">
+    <div class="rules-header-inner">
+      <a class="rules-brand" href="index.html" aria-label="Victory World home">
+        <img
+          src="assets/images/victory_world_logo.png"
+          alt="Victory World"
+        >
+        <div>
+          <strong>VICTORY WORLD</strong>
+          <span>by INRICA</span>
+        </div>
+      </a>
+
+      <a class="rules-home-link" href="index.html#games">
+        ← Back to Games
+      </a>
+    </div>
+  </header>
+
+  <main class="rules-main">
+    <section class="rules-hero">
+      <div class="rules-shell">
+        <div class="rules-eyebrow">VICTORY WORLD GAME GUIDE</div>
+
+        <div class="rules-hero-row">
+          <div>
+            <h1 id="gameTitle">Rules & How to Play</h1>
+            <p id="gameIntro">
+              Loading game guide…
+            </p>
+          </div>
+
+          <div class="rules-controls">
+            <label for="languageSelect">Language</label>
+
+            <select id="languageSelect">
+              <option value="en">English</option>
+              <option value="hi">हिन्दी</option>
+              <option value="es">Español</option>
+              <option value="pt">Português (Brasil)</option>
+              <option value="bn">বাংলা</option>
+              <option value="fil">Filipino</option>
+            </select>
+          </div>
+        </div>
+
+        <nav
+          class="game-guide-tabs"
+          aria-label="Victory World game guides"
+        >
+          <a data-game="teen-patti" href="rules.html?game=teen-patti">
+            Teen Patti
+          </a>
+
+          <a data-game="rummy" href="rules.html?game=rummy">
+            Rummy
+          </a>
+
+          <a data-game="poker" href="rules.html?game=poker">
+            Poker
+          </a>
+
+          <a data-game="blackjack" href="rules.html?game=blackjack">
+            Blackjack
+          </a>
+
+          <a data-game="ludo" href="rules.html?game=ludo">
+            Ludo
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="rules-content-section">
+      <div class="rules-shell">
+        <div id="guideError" class="guide-error" hidden></div>
+
+        <section class="guide-section">
+          <div class="section-heading">
+            <span>01</span>
+            <div>
+              <small>GAME INFORMATION</small>
+              <h2 id="rulesHeading">Rules</h2>
+            </div>
+          </div>
+
+          <div id="rulesGrid" class="guide-grid"></div>
+        </section>
+
+        <section class="guide-section">
+          <div class="section-heading">
+            <span>02</span>
+            <div>
+              <small>BEGINNER GUIDE</small>
+              <h2 id="howToPlayHeading">How to Play</h2>
+            </div>
+          </div>
+
+          <div id="howToPlayGrid" class="guide-grid"></div>
+        </section>
+
+        <section class="guide-section">
+          <div class="section-heading">
+            <span>03</span>
+            <div>
+              <small>WAYS TO PLAY</small>
+              <h2 id="playModesHeading">Play Modes</h2>
+            </div>
+          </div>
+
+          <div id="gameModesGrid" class="guide-grid game-mode-guide-grid"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rules-footer">
+    <div class="rules-shell">
+      <img
+        src="assets/images/victory_world_logo.png"
+        alt="Victory World"
+      >
+
+      <div>
+        <strong>Victory World by INRICA</strong>
+        <p>
+          Play responsibly. 21+ · Game availability may vary by location.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/rules.js"></script>
+</body>
+</html>
