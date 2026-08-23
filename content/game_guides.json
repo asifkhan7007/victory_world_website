@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "languages": [
+    "en",
+    "hi",
+    "es",
+    "pt",
+    "bn",
+    "fil"
+  ],
+  "games": {
+    "teen-patti": {
+      "title": {
+        "en": "Teen Patti",
+        "hi": "तीन पत्ती",
+        "es": "Teen Patti",
+        "pt": "Teen Patti",
+        "bn": "তিন পত্তি",
+        "fil": "Teen Patti"
+      },
+      "intro": {
+        "en": "Teen Patti is a three-card game where players compete for the pot using betting decisions and hand strength.",
+        "hi": "तीन पत्ती तीन कार्ड का खेल है जिसमें खिलाड़ी दांव लगाने के फैसलों और अपने हाथ की ताकत से पॉट जीतने की कोशिश करते हैं.",
+        "es": "Teen Patti es un juego de tres cartas en el que los jugadores compiten por el bote mediante decisiones de apuesta y la fuerza de su mano.",
+        "pt": "Teen Patti é um jogo de três cartas em que os jogadores disputam o pote usando decisões de aposta e a força da mão.",
+        "bn": "তিন পত্তি একটি তিন-কার্ডের খেলা যেখানে খেলোয়াড়রা বাজির সিদ্ধান্ত ও হাতের শক্তির মাধ্যমে পট জেতার চেষ্টা করে.",
+        "fil": "Ang Teen Patti ay larong may tatlong baraha kung saan pinaglalabanan ng mga manlalaro ang pot gamit ang tamang desisyon sa pagtaya at lakas ng kamay."
+      },
+      "rules": {
+        "objective": {
+          "en": "Win the pot by having the strongest three-card hand at Show, winning a Side Show, or remaining as the last active player after the others Pack.",
+          "hi": "Show में सबसे मजबूत तीन-कार्ड हाथ बनाकर, Side Show जीतकर, या बाकी सभी खिलाड़ियों के Pack करने के बाद अंतिम सक्रिय खिलाड़ी बनकर पॉट जीतें.",
+          "es": "Gana el bote teniendo la mejor mano de tres cartas en Show, ganando un Side Show o siendo el último jugador activo después de que los demás hagan Pack.",
+          "pt": "Ganhe o pote tendo a mão de três cartas mais forte no Show, vencendo um Side Show ou sendo o último jogador ativo depois que os outros fizerem Pack.",
+          "bn": "Show-এ সবচেয়ে শক্তিশালী তিন-কার্ডের হাত, Side Show জয়, অথবা অন্য সবাই Pack করার পরে শেষ সক্রিয় খেলোয়াড় হয়ে পট জিতুন.",
+          "fil": "Manalo sa pot sa pamamagitan ng pinakamalakas na tatlong-card hand sa Show, pagkapanalo sa Side Show, o pagiging huling aktibong manlalaro matapos mag-Pack ang iba."
+        },
+        "setup": {
+          "en": "Each eligible player pays the table boot and receives three private cards. Every player begins the round Blind.",
+          "hi": "हर पात्र खिलाड़ी टेबल का boot देता है और उसे तीन निजी कार्ड मिलते हैं. हर खिलाड़ी राउंड की शुरुआत Blind से करता है.",
+          "es": "Cada jugador elegible paga el boot de la mesa y recibe tres cartas privadas. Todos comienzan la ronda Blind.",
+          "pt": "Cada jogador elegível paga o boot da mesa e recebe três cartas privadas. Todos começam a rodada Blind.",
+          "bn": "প্রতিটি যোগ্য খেলোয়াড় টেবিলের boot দেয় এবং তিনটি ব্যক্তিগত কার্ড পায়. সবাই Blind অবস্থায় রাউন্ড শুরু করে.",
+          "fil": "Bawat eligible player ay nagbabayad ng table boot at tumatanggap ng tatlong pribadong baraha. Lahat ay nagsisimulang Blind."
+        },
+        "turns": {
+          "en": "Players act one at a time. On your turn, choose one of the actions currently available to you. Seeing your cards changes which betting actions you can use.",
+          "hi": "खिलाड़ी एक-एक करके अपनी चाल चलते हैं. अपनी बारी में उपलब्ध कार्रवाई चुनें. अपने कार्ड देखने के बाद उपलब्ध betting actions बदल जाते हैं.",
+          "es": "Los jugadores actúan uno por uno. En tu turno elige una de las acciones disponibles. Ver tus cartas cambia las acciones de apuesta que puedes usar.",
+          "pt": "Os jogadores agem um de cada vez. Na sua vez, escolha uma das ações disponíveis. Ver suas cartas muda as opções de aposta.",
+          "bn": "খেলোয়াড়রা একে একে চাল দেয়. আপনার পালায় উপলভ্য action বেছে নিন. কার্ড দেখলে betting action বদলে যায়.",
+          "fil": "Isa-isang kumikilos ang mga manlalaro. Sa iyong turn, pumili ng available na action. Kapag nakita mo ang iyong cards, nagbabago ang betting actions na maaari mong gamitin."
+        },
+        "actions": {
+          "en": "See Cards reveals your hand. Blind lets an unseen player wager the current stake. Chaal is available after seeing your cards and costs twice the selected stake. Pack leaves the current round. Side Show compares your hand with the previous eligible seen player when at least three active players remain. Show compares the final two active players.",
+          "hi": "See Cards आपके कार्ड दिखाता है. Blind में बिना कार्ड देखे वर्तमान stake लगाया जाता है. कार्ड देखने के बाद Chaal उपलब्ध होती है और चुने गए stake का दोगुना खर्च होता है. Pack से आप राउंड छोड़ देते हैं. कम से कम तीन सक्रिय खिलाड़ी होने पर Side Show पिछले पात्र seen खिलाड़ी से हाथ की तुलना करता है. अंतिम दो खिलाड़ियों के बीच Show होता है.",
+          "es": "See Cards revela tu mano. Blind permite apostar el stake actual sin ver las cartas. Chaal está disponible después de verlas y cuesta el doble del stake seleccionado. Pack abandona la ronda. Side Show compara tu mano con la del jugador visto elegible anterior cuando quedan al menos tres jugadores activos. Show compara a los dos últimos jugadores.",
+          "pt": "See Cards revela sua mão. Blind permite apostar o stake atual sem ver as cartas. Chaal fica disponível depois de ver as cartas e custa o dobro do stake escolhido. Pack abandona a rodada. Side Show compara sua mão com a do jogador Seen elegível anterior quando existem pelo menos três jogadores ativos. Show compara os dois últimos.",
+          "bn": "See Cards আপনার হাত দেখায়. Blind-এ কার্ড না দেখে বর্তমান stake রাখা যায়. কার্ড দেখার পরে Chaal পাওয়া যায় এবং নির্বাচিত stake-এর দ্বিগুণ লাগে. Pack রাউন্ড ছেড়ে দেয়. অন্তত তিনজন সক্রিয় থাকলে Side Show আগের যোগ্য Seen খেলোয়াড়ের সঙ্গে তুলনা করে. শেষ দুইজনের মধ্যে Show হয়.",
+          "fil": "Ipinapakita ng See Cards ang iyong hand. Blind ay pagtaya ng kasalukuyang stake nang hindi tinitingnan ang cards. Chaal ay available pagkatapos makita ang cards at nagkakahalaga ng doble ng napiling stake. Pack ay pag-alis sa round. Side Show ay paghahambing sa nakaraang eligible Seen player kapag tatlo o higit pa ang active. Show ay para sa huling dalawang active players."
+        },
+        "winning": {
+          "en": "A round ends when one player remains active or when a Show determines the stronger hand.",
+          "hi": "राउंड तब समाप्त होता है जब केवल एक सक्रिय खिलाड़ी बचता है या Show से मजबूत हाथ तय हो जाता है.",
+          "es": "La ronda termina cuando solo queda un jugador activo o cuando un Show determina la mano más fuerte.",
+          "pt": "A rodada termina quando resta apenas um jogador ativo ou quando um Show determina a mão mais forte.",
+          "bn": "একজন সক্রিয় খেলোয়াড় বাকি থাকলে বা Show শক্তিশালী হাত নির্ধারণ করলে রাউন্ড শেষ হয়.",
+          "fil": "Nagtatapos ang round kapag isang active player na lang ang natitira o kapag natukoy ng Show ang mas malakas na hand."
+        },
+        "scoring": {
+          "en": "Hand order from strongest to weakest is Trail, Pure Sequence, Sequence, Color, Pair, High Card. Q-K-A is the strongest sequence and A-2-3 is the second strongest.",
+          "hi": "सबसे मजबूत से सबसे कमजोर हाथ का क्रम है: Trail, Pure Sequence, Sequence, Color, Pair, High Card. Q-K-A सबसे मजबूत sequence है और A-2-3 दूसरा सबसे मजबूत.",
+          "es": "El orden de manos de mayor a menor es Trail, Pure Sequence, Sequence, Color, Pair y High Card. Q-K-A es la secuencia más fuerte y A-2-3 es la segunda.",
+          "pt": "Da mais forte para a mais fraca: Trail, Pure Sequence, Sequence, Color, Pair e High Card. Q-K-A é a sequência mais forte e A-2-3 é a segunda.",
+          "bn": "সবচেয়ে শক্তিশালী থেকে দুর্বল: Trail, Pure Sequence, Sequence, Color, Pair, High Card. Q-K-A সবচেয়ে শক্তিশালী sequence এবং A-2-3 দ্বিতীয়.",
+          "fil": "Pinakamalakas hanggang pinakamahina: Trail, Pure Sequence, Sequence, Color, Pair, High Card. Q-K-A ang pinakamalakas na sequence at A-2-3 ang pangalawa."
+        },
+        "specialRules": {
+          "en": "Blind wagers use the current stake. Chaal costs twice the selected stake. A Show costs the current stake for a Blind player and twice the current stake for a Seen player. The stake can increase during play up to the table limit. Victory World deducts a 5% rake from the completed Teen Patti pot before paying the winner.",
+          "hi": "Blind wager वर्तमान stake पर होता है. Chaal चुने गए stake का दोगुना है. Show की कीमत Blind खिलाड़ी के लिए वर्तमान stake और Seen खिलाड़ी के लिए उसका दोगुना है. Stake टेबल सीमा तक बढ़ सकता है. पूर्ण Teen Patti pot से Victory World 5% rake काटकर बाकी विजेता को देता है.",
+          "es": "Blind usa el stake actual. Chaal cuesta el doble del stake seleccionado. Show cuesta el stake actual para un jugador Blind y el doble para un jugador Seen. El stake puede aumentar hasta el límite de la mesa. Victory World descuenta un rake del 5% del bote completado antes de pagar al ganador.",
+          "pt": "Blind usa o stake atual. Chaal custa o dobro do stake selecionado. Show custa o stake atual para Blind e o dobro para Seen. O stake pode aumentar até o limite da mesa. A Victory World desconta rake de 5% do pote concluído antes de pagar o vencedor.",
+          "bn": "Blind বর্তমান stake ব্যবহার করে. Chaal নির্বাচিত stake-এর দ্বিগুণ. Show-এ Blind খেলোয়াড় বর্তমান stake এবং Seen খেলোয়াড় দ্বিগুণ দেয়. Stake টেবিল সীমা পর্যন্ত বাড়তে পারে. সম্পূর্ণ Teen Patti pot থেকে Victory World 5% rake কেটে বিজয়ীকে বাকি অংশ দেয়.",
+          "fil": "Blind ay gumagamit ng current stake. Chaal ay doble ng napiling stake. Show ay current stake para sa Blind player at doble para sa Seen player. Maaaring tumaas ang stake hanggang table limit. Kumakaltas ang Victory World ng 5% rake mula sa completed Teen Patti pot bago bayaran ang winner."
+        }
+      },
+      "howToPlay": {
+        "gettingStarted": {
+          "en": "Enter a table and wait for the round to begin. The boot is collected automatically and your three cards are dealt.",
+          "hi": "टेबल में प्रवेश करें और राउंड शुरू होने की प्रतीक्षा करें. Boot अपने आप लिया जाता है और आपके तीन कार्ड deal किए जाते हैं.",
+          "es": "Entra en una mesa y espera a que comience la ronda. El boot se cobra automáticamente y recibes tres cartas.",
+          "pt": "Entre em uma mesa e aguarde a rodada começar. O boot é cobrado automaticamente e três cartas são distribuídas.",
+          "bn": "টেবিলে যোগ দিয়ে রাউন্ড শুরু হওয়ার অপেক্ষা করুন. Boot স্বয়ংক্রিয়ভাবে নেওয়া হয় এবং তিনটি কার্ড দেওয়া হয়.",
+          "fil": "Pumasok sa table at hintaying magsimula ang round. Awtomatikong kinokolekta ang boot at ibinibigay ang tatlong cards."
+        },
+        "stepByStep": {
+          "en": "1. Decide whether to remain Blind or use See Cards. 2. On your turn, choose a legal betting action or Pack. 3. Continue until players Pack, request a Side Show, or only two players remain for Show. 4. The strongest eligible hand wins the pot.",
+          "hi": "1. तय करें कि Blind रहना है या See Cards करना है. 2. अपनी बारी में कानूनी betting action चुनें या Pack करें. 3. खेल जारी रखें जब तक खिलाड़ी Pack न करें, Side Show न हो, या केवल दो खिलाड़ी Show के लिए न बचें. 4. सबसे मजबूत पात्र हाथ पॉट जीतता है.",
+          "es": "1. Decide si seguir Blind o usar See Cards. 2. En tu turno elige una acción legal o Pack. 3. Continúa hasta que otros hagan Pack, haya Side Show o queden dos jugadores para Show. 4. La mejor mano elegible gana el bote.",
+          "pt": "1. Escolha permanecer Blind ou usar See Cards. 2. Na sua vez escolha uma ação legal ou Pack. 3. Continue até os jogadores fazerem Pack, ocorrer Side Show ou restarem dois jogadores para Show. 4. A melhor mão elegível vence.",
+          "bn": "1. Blind থাকবেন নাকি See Cards করবেন ঠিক করুন. 2. নিজের পালায় বৈধ betting action নিন বা Pack করুন. 3. অন্যরা Pack করা, Side Show হওয়া বা Show-এর জন্য দুইজন বাকি থাকা পর্যন্ত চালিয়ে যান. 4. সবচেয়ে শক্তিশালী যোগ্য হাত পট জেতে.",
+          "fil": "1. Piliing manatiling Blind o gamitin ang See Cards. 2. Sa iyong turn pumili ng legal betting action o Pack. 3. Magpatuloy hanggang mag-Pack ang iba, magkaroon ng Side Show, o dalawang players na lang ang matira para sa Show. 4. Ang pinakamalakas na eligible hand ang panalo."
+        },
+        "beginnerTips": {
+          "en": "Blind play keeps your cards hidden from you and usually costs less per action than Seen play. If you are new, use See Cards early while learning the hand rankings.",
+          "hi": "Blind में आपके कार्ड आपसे छिपे रहते हैं और आम तौर पर Seen play से प्रति चाल कम खर्च होता है. यदि आप नए हैं, तो hand rankings सीखते समय जल्दी See Cards करना आसान हो सकता है.",
+          "es": "Blind mantiene tus cartas ocultas para ti y normalmente cuesta menos por acción que jugar Seen. Si eres principiante, usa See Cards pronto mientras aprendes las clasificaciones.",
+          "pt": "Blind mantém suas cartas escondidas de você e normalmente custa menos por ação que jogar Seen. Iniciantes podem usar See Cards cedo enquanto aprendem as mãos.",
+          "bn": "Blind-এ নিজের কার্ড দেখা যায় না এবং সাধারণত Seen play-এর তুলনায় প্রতি action কম খরচ হয়. নতুন হলে hand ranking শেখার সময় আগে See Cards করা সহজ হতে পারে.",
+          "fil": "Sa Blind, hindi mo nakikita ang sarili mong cards at karaniwang mas mura bawat action kaysa Seen play. Kung baguhan, maaaring mas madaling gumamit ng See Cards habang pinag-aaralan ang hand rankings."
+        }
+      },
+      "gameModes": {
+        "practice": {
+          "en": "Practice mode lets you learn the game without joining a public multiplayer table. Use it to become familiar with the hand rankings, betting flow, and available actions.",
+          "hi": "Practice mode में आप public multiplayer table में गए बिना hand rankings, betting flow और actions सीख सकते हैं.",
+          "es": "Practice te permite aprender clasificaciones, apuestas y acciones sin entrar en una mesa pública.",
+          "pt": "Practice permite aprender mãos, apostas e ações sem entrar em uma mesa pública.",
+          "bn": "Practice mode-এ public multiplayer table ছাড়া hand ranking, betting flow ও actions শেখা যায়.",
+          "fil": "Practice mode ay para matutunan ang hand rankings, betting flow at actions nang hindi pumapasok sa public multiplayer table."
+        },
+        "privateRoom": {
+          "en": "Create a private room and share the room code with friends. The selected player count is the room capacity. Once the minimum number of players is present, the host may start. Additional players may join available seats later and enter at the next valid round without interrupting the current round.",
+          "hi": "Private Room बनाकर room code दोस्तों के साथ साझा करें. चुनी गई player count कमरे की अधिकतम capacity है. न्यूनतम खिलाड़ी पूरे होने पर host शुरू कर सकता है. खाली seat रहने पर बाद में खिलाड़ी उसी code से जुड़ सकते हैं और वर्तमान round को बाधित किए बिना अगले मान्य round में प्रवेश करते हैं.",
+          "es": "Crea una sala privada y comparte el código. La cantidad seleccionada es la capacidad máxima. El anfitrión puede empezar cuando se alcance el mínimo. Otros jugadores pueden entrar después si quedan lugares y participarán en la siguiente ronda válida sin interrumpir la actual.",
+          "pt": "Crie uma sala privada e compartilhe o código. O número escolhido é a capacidade máxima. O host pode iniciar quando houver o mínimo de jogadores. Novos jogadores podem entrar depois se houver vagas e participam da próxima rodada válida sem interromper a atual.",
+          "bn": "Private Room তৈরি করে বন্ধুদের room code দিন. নির্বাচিত player count হলো সর্বোচ্চ capacity. ন্যূনতম খেলোয়াড় হলে host শুরু করতে পারে. খালি seat থাকলে পরে অন্যরা যোগ দিয়ে বর্তমান round বাধা না দিয়ে পরের বৈধ round-এ প্রবেশ করবে.",
+          "fil": "Gumawa ng Private Room at ibahagi ang room code. Ang napiling player count ay maximum capacity. Maaaring magsimula ang host kapag umabot sa minimum players. Puwedeng sumali ang iba sa bakanteng seats at papasok sila sa susunod na valid round nang hindi ginagambala ang kasalukuyan."
+        },
+        "publicOnline": {
+          "en": "Public Online matches you with other available players. The round begins when enough eligible players are present and follows the same Teen Patti rules.",
+          "hi": "Public Online आपको उपलब्ध खिलाड़ियों से match करता है. पर्याप्त पात्र खिलाड़ी होने पर सामान्य Teen Patti rules के साथ round शुरू होता है.",
+          "es": "Public Online te empareja con jugadores disponibles y comienza cuando hay suficientes jugadores elegibles.",
+          "pt": "Public Online encontra jogadores disponíveis e inicia quando há jogadores elegíveis suficientes.",
+          "bn": "Public Online আপনাকে উপলভ্য খেলোয়াড়দের সঙ্গে match করে এবং যথেষ্ট যোগ্য খেলোয়াড় হলে খেলা শুরু হয়.",
+          "fil": "Public Online ay naghahanap ng available players at nagsisimula kapag sapat ang eligible players."
+        }
+      }
+    },
+    "rummy": {
+      "title": {
+        "en": "Indian Rummy",
+        "hi": "इंडियन रम्मी",
+        "es": "Rummy Indio",
+        "pt": "Rummy Indiano",
+        "bn": "ইন্ডিয়ান রামি",
+        "fil": "Indian Rummy"
+      },
+      "intro": {
+        "en": "Victory World Rummy is a 13-card Indian Rummy game based on forming valid sequences and sets.",
+        "hi": "Victory World Rummy 13-कार्ड इंडियन रम्मी है जिसमें सही sequences और sets बनाना होता है.",
+        "es": "Victory World Rummy es Rummy Indio de 13 cartas basado en formar secuencias y grupos válidos.",
+        "pt": "Victory World Rummy é Rummy Indiano de 13 cartas baseado em formar sequências e conjuntos válidos.",
+        "bn": "Victory World Rummy হলো ১৩-কার্ড ইন্ডিয়ান রামি যেখানে valid sequence ও set তৈরি করতে হয়.",
+        "fil": "Ang Victory World Rummy ay 13-card Indian Rummy na nakatuon sa pagbuo ng valid sequences at sets."
+      },
+      "rules": {
+        "objective": {
+          "en": "Arrange all 13 cards into valid groups and make a valid declaration before the other players.",
+          "hi": "अपने सभी 13 कार्ड सही groups में व्यवस्थित करके अन्य खिलाड़ियों से पहले valid declaration करें.",
+          "es": "Organiza las 13 cartas en grupos válidos y realiza una declaración válida antes que los demás.",
+          "pt": "Organize as 13 cartas em grupos válidos e faça uma declaração válida antes dos outros jogadores.",
+          "bn": "সব ১৩টি কার্ড valid group-এ সাজিয়ে অন্যদের আগে valid declaration করুন.",
+          "fil": "Ayusin ang lahat ng 13 cards sa valid groups at gumawa ng valid declaration bago ang ibang players."
+        },
+        "setup": {
+          "en": "Each player receives 13 cards. One rank is selected as the wild joker rank, and printed jokers are also treated as jokers.",
+          "hi": "हर खिलाड़ी को 13 कार्ड मिलते हैं. एक rank wild joker चुना जाता है और printed jokers भी joker माने जाते हैं.",
+          "es": "Cada jugador recibe 13 cartas. Se selecciona un rango como comodín wild y los comodines impresos también cuentan como jokers.",
+          "pt": "Cada jogador recebe 13 cartas. Um rank é escolhido como wild joker e printed jokers também contam como curingas.",
+          "bn": "প্রতিটি খেলোয়াড় ১৩টি কার্ড পায়. একটি rank wild joker হয় এবং printed joker-ও joker হিসেবে গণ্য হয়.",
+          "fil": "Bawat player ay tumatanggap ng 13 cards. Isang rank ang pinipiling wild joker at ang printed jokers ay joker din."
+        },
+        "turns": {
+          "en": "Each turn has two phases: draw one card, then discard one card. You may draw from the closed pile or the open discard pile.",
+          "hi": "हर turn में पहले एक कार्ड draw करें और फिर एक कार्ड discard करें. Closed pile या open discard pile से draw किया जा सकता है.",
+          "es": "Cada turno tiene dos fases: robar una carta y descartar una. Puedes robar del mazo cerrado o del descarte abierto.",
+          "pt": "Cada turno tem duas fases: comprar uma carta e descartar uma. É possível comprar do monte fechado ou do descarte aberto.",
+          "bn": "প্রতি turn-এ প্রথমে একটি card draw এবং পরে একটি card discard করতে হয়. Closed pile বা open discard pile থেকে draw করা যায়.",
+          "fil": "Bawat turn ay may dalawang phase: draw ng isang card at discard ng isang card. Maaari kang kumuha mula sa closed pile o open discard pile."
+        },
+        "actions": {
+          "en": "Draw, arrange your cards into groups, discard, declare, or Drop when allowed.",
+          "hi": "Draw करें, कार्ड groups में व्यवस्थित करें, discard करें, declare करें या अनुमति होने पर Drop करें.",
+          "es": "Roba, organiza cartas, descarta, declara o usa Drop cuando esté permitido.",
+          "pt": "Compre, organize, descarte, declare ou use Drop quando permitido.",
+          "bn": "Draw, arrange, discard, declare অথবা অনুমতি থাকলে Drop.",
+          "fil": "Draw, ayusin ang cards, discard, declare, o Drop kapag pinapayagan."
+        },
+        "winning": {
+          "en": "A valid declaration wins the round. Your 13-card hand must contain at least two sequences, including at least one pure sequence, and every card must belong to a valid sequence or set.",
+          "hi": "Valid declaration राउंड जीतता है. 13 कार्ड में कम से कम दो sequences होनी चाहिए, जिनमें कम से कम एक pure sequence हो, और हर कार्ड valid sequence या set में होना चाहिए.",
+          "es": "Una declaración válida gana la ronda. Debes tener al menos dos secuencias, incluida una pure sequence, y todas las cartas deben estar en secuencias o sets válidos.",
+          "pt": "Uma declaração válida vence a rodada. São necessárias pelo menos duas sequências, incluindo uma pure sequence, e todas as cartas devem estar em sequências ou sets válidos.",
+          "bn": "Valid declaration round জেতে. অন্তত দুইটি sequence থাকতে হবে, যার একটি pure sequence, এবং প্রতিটি card valid sequence বা set-এর অংশ হতে হবে.",
+          "fil": "Ang valid declaration ang panalo sa round. Kailangan ng hindi bababa sa dalawang sequences, kabilang ang isang pure sequence, at lahat ng cards ay dapat nasa valid sequence o set."
+        },
+        "scoring": {
+          "en": "Jokers are worth 0 points. Cards 2 through 9 count at face value. 10, Jack, Queen, King, and Ace are worth 10 points each. The maximum hand penalty is 80 points. The winner receives 0 penalty points.",
+          "hi": "Jokers 0 points. 2 से 9 face value. 10, Jack, Queen, King और Ace 10 points. अधिकतम hand penalty 80 points. Winner को 0 penalty points.",
+          "es": "Los jokers valen 0. Del 2 al 9 valen su número. 10, J, Q, K y A valen 10. La penalización máxima es 80. El ganador recibe 0 puntos.",
+          "pt": "Jokers valem 0. Cartas 2–9 valem o número. 10, J, Q, K e A valem 10. A penalidade máxima é 80. O vencedor recebe 0.",
+          "bn": "Joker 0 points. 2–9 face value. 10, J, Q, K, A = 10 points. সর্বোচ্চ penalty 80. Winner = 0 penalty.",
+          "fil": "Jokers = 0. Cards 2–9 = face value. 10, J, Q, K, A = 10. Maximum penalty = 80. Winner = 0 penalty."
+        },
+        "specialRules": {
+          "en": "A Pure Sequence contains at least three consecutive same-suit cards and cannot use a printed joker. An Impure Sequence contains a joker and must still contain at least two natural same-suit cards. A Set contains three or four cards of the same rank. Duplicate natural cards of the same suit cannot be used together in one set. First Drop costs 20 points. Dropping after drawing costs 40 points. An invalid declaration gives an 80-point penalty and removes that player from the round.",
+          "hi": "Pure Sequence में कम से कम तीन लगातार same-suit cards होते हैं और printed joker नहीं होता. Impure Sequence में joker होता है और कम से कम दो natural same-suit cards चाहिए. Set में समान rank के तीन या चार cards होते हैं. एक ही suit के duplicate natural cards एक set में नहीं हो सकते. First Drop 20 points, draw के बाद Drop 40 points, invalid declaration 80 points और उस round से elimination.",
+          "es": "Pure Sequence: tres o más cartas consecutivas del mismo palo sin printed joker. Impure Sequence: incluye joker y al menos dos cartas naturales del mismo palo. Set: tres o cuatro cartas del mismo rango. No se permiten dos copias naturales del mismo palo en un set. First Drop: 20 puntos. Drop después de robar: 40. Declaración inválida: 80 y eliminación de la ronda.",
+          "pt": "Pure Sequence: três ou mais cartas consecutivas do mesmo naipe sem printed joker. Impure Sequence: usa joker e pelo menos duas cartas naturais do mesmo naipe. Set: três ou quatro cartas do mesmo rank. Não podem existir duas cartas naturais duplicadas do mesmo naipe em um set. First Drop: 20. Drop após comprar: 40. Declaração inválida: 80 e eliminação da rodada.",
+          "bn": "Pure Sequence-এ একই suit-এর অন্তত তিনটি ধারাবাহিক card থাকে এবং printed joker ব্যবহার করা যায় না. Impure Sequence-এ joker এবং অন্তত দুইটি natural same-suit card লাগে. Set-এ একই rank-এর তিন বা চারটি card থাকে. একই suit-এর duplicate natural card এক set-এ নয়. First Drop 20, draw-এর পরে Drop 40, invalid declaration 80 এবং round থেকে বাদ.",
+          "fil": "Pure Sequence: tatlo o higit pang magkakasunod na same-suit cards na walang printed joker. Impure Sequence: may joker at hindi bababa sa dalawang natural same-suit cards. Set: tatlo o apat na cards na pareho ang rank. Hindi maaaring dalawang duplicate natural cards ng parehong suit sa iisang set. First Drop = 20, Drop pagkatapos mag-draw = 40, invalid declaration = 80 at elimination sa round."
+        }
+      },
+      "howToPlay": {
+        "gettingStarted": {
+          "en": "When the round begins, review your 13 cards and start looking for a pure sequence first.",
+          "hi": "Round शुरू होते ही अपने 13 cards देखें और सबसे पहले pure sequence बनाने की कोशिश करें.",
+          "es": "Al comenzar, revisa tus 13 cartas e intenta formar primero una pure sequence.",
+          "pt": "Ao começar, examine suas 13 cartas e tente formar primeiro uma pure sequence.",
+          "bn": "Round শুরু হলে ১৩টি card দেখে আগে একটি pure sequence তৈরির চেষ্টা করুন.",
+          "fil": "Sa simula ng round, tingnan ang 13 cards at unahin ang pagbuo ng pure sequence."
+        },
+        "stepByStep": {
+          "en": "1. Draw one card from the closed pile or discard pile. 2. Arrange your cards into sequences and sets. 3. Discard one card. 4. Repeat until all 13 cards can be grouped correctly. 5. Declare to end the round.",
+          "hi": "1. Closed pile या discard pile से एक card draw करें. 2. Cards को sequences और sets में व्यवस्थित करें. 3. एक card discard करें. 4. सभी 13 cards सही groups में आने तक दोहराएँ. 5. Declare करें.",
+          "es": "1. Roba del mazo cerrado o descarte. 2. Forma secuencias y sets. 3. Descarta una carta. 4. Repite hasta agrupar correctamente las 13 cartas. 5. Declara.",
+          "pt": "1. Compre uma carta. 2. Organize sequências e sets. 3. Descarte uma carta. 4. Repita até todas as 13 cartas estarem agrupadas corretamente. 5. Declare.",
+          "bn": "1. একটি card draw করুন. 2. Sequence ও set সাজান. 3. একটি card discard করুন. 4. সব ১৩টি card valid group না হওয়া পর্যন্ত চালিয়ে যান. 5. Declare করুন.",
+          "fil": "1. Draw ng card. 2. Bumuo ng sequences at sets. 3. Mag-discard ng isang card. 4. Ulitin hanggang maayos ang lahat ng 13 cards. 5. Mag-declare."
+        },
+        "beginnerTips": {
+          "en": "Build a pure sequence as early as possible because without one, valid sets and other sequences do not protect your cards from full-hand penalty scoring.",
+          "hi": "Pure sequence जल्दी बनाना महत्वपूर्ण है क्योंकि उसके बिना valid sets और अन्य sequences भी full-hand penalty से आपके cards को नहीं बचाते.",
+          "es": "Forma una pure sequence pronto. Sin ella, tus otros grupos válidos no protegen las cartas de la penalización completa.",
+          "pt": "Monte uma pure sequence cedo. Sem ela, os outros grupos válidos não protegem sua mão da penalidade completa.",
+          "bn": "Pure sequence আগে তৈরি করুন. এটি না থাকলে অন্য valid group-ও full-hand penalty থেকে সুরক্ষা দেয় না.",
+          "fil": "Bumuo agad ng pure sequence. Kung wala nito, hindi mapoprotektahan ng ibang valid groups ang iyong hand mula sa full penalty."
+        }
+      },
+      "gameModes": {
+        "practice": {
+          "en": "Practice mode is intended for learning the draw-discard flow, grouping cards, jokers, and declarations before playing against online opponents.",
+          "hi": "Practice mode draw-discard flow, grouping, jokers और declarations सीखने के लिए है.",
+          "es": "Practice sirve para aprender a robar, descartar, agrupar, usar jokers y declarar.",
+          "pt": "Practice permite aprender compra, descarte, grupos, jokers e declarações.",
+          "bn": "Practice mode draw-discard, grouping, joker ও declaration শেখার জন্য.",
+          "fil": "Practice mode ay para matutunan ang draw-discard flow, grouping, jokers at declarations."
+        },
+        "privateRoom": {
+          "en": "Create a private room and share the room code with friends. The selected player count is the room capacity. The host may start once the minimum player requirement is met. Players who join later enter at the next valid round without interrupting an active round.",
+          "hi": "Private Room बनाएँ और code साझा करें. चुनी गई player count maximum capacity है. Minimum players होने पर host शुरू कर सकता है. बाद में जुड़ने वाले खिलाड़ी current round को बाधित किए बिना अगले valid round में प्रवेश करते हैं.",
+          "es": "Crea una sala privada y comparte el código. La cantidad seleccionada es la capacidad máxima. El host puede comenzar al alcanzar el mínimo. Quienes entren más tarde participan en la siguiente ronda válida.",
+          "pt": "Crie uma sala privada e compartilhe o código. O número selecionado é a capacidade máxima. O host pode iniciar com o mínimo necessário e novos jogadores entram na próxima rodada válida.",
+          "bn": "Private Room তৈরি করে code দিন. নির্বাচিত player count সর্বোচ্চ capacity. Minimum players হলে host শুরু করতে পারে. পরে যোগ দিলে পরের valid round-এ প্রবেশ করবে.",
+          "fil": "Gumawa ng private room at ibahagi ang code. Ang napiling player count ay maximum capacity. Maaaring magsimula ang host sa minimum players. Ang late joiners ay papasok sa susunod na valid round."
+        },
+        "publicOnline": {
+          "en": "Public Online matches you with available Rummy players. Once enough eligible players are present, the round begins using the normal Victory World Rummy rules.",
+          "hi": "Public Online उपलब्ध Rummy खिलाड़ियों से match करता है और पर्याप्त eligible players होने पर round शुरू करता है.",
+          "es": "Public Online busca jugadores de Rummy disponibles y comienza cuando hay suficientes jugadores elegibles.",
+          "pt": "Public Online encontra jogadores disponíveis e inicia quando há jogadores elegíveis suficientes.",
+          "bn": "Public Online উপলভ্য Rummy players-এর সঙ্গে match করে এবং যথেষ্ট eligible players হলে শুরু হয়.",
+          "fil": "Public Online ay naghahanap ng available Rummy players at nagsisimula kapag sapat ang eligible players."
+        }
+      }
+    },
+    "poker": {
+      "title": {
+        "en": "Texas Hold'em Poker",
+        "hi": "टेक्सस होल्ड'एम पोकर",
+        "es": "Poker Texas Hold'em",
+        "pt": "Poker Texas Hold'em",
+        "bn": "টেক্সাস হোল্ড'এম পোকার",
+        "fil": "Texas Hold'em Poker"
+      },
+      "intro": {
+        "en": "Victory World Poker uses Texas Hold'em rules with two private hole cards and five shared community cards.",
+        "hi": "Victory World Poker Texas Hold'em rules का उपयोग करता है: दो private hole cards और पाँच shared community cards.",
+        "es": "Victory World Poker usa Texas Hold'em con dos cartas privadas y cinco cartas comunitarias.",
+        "pt": "Victory World Poker usa Texas Hold'em com duas cartas privadas e cinco cartas comunitárias.",
+        "bn": "Victory World Poker Texas Hold'em rules ব্যবহার করে: দুইটি private hole card ও পাঁচটি shared community card.",
+        "fil": "Gumagamit ang Victory World Poker ng Texas Hold'em: dalawang private hole cards at limang shared community cards."
+      },
+      "rules": {
+        "objective": {
+          "en": "Win chips by making the best five-card Poker hand at Showdown or by making every other active player Fold.",
+          "hi": "Showdown में सबसे मजबूत पाँच-card Poker hand बनाकर या सभी विरोधियों को Fold करवाकर chips जीतें.",
+          "es": "Gana fichas formando la mejor mano de cinco cartas en Showdown o haciendo que todos los demás hagan Fold.",
+          "pt": "Ganhe fichas com a melhor mão de cinco cartas no Showdown ou fazendo todos os adversários Fold.",
+          "bn": "Showdown-এ সেরা পাঁচ-card Poker hand তৈরি করে বা অন্য সবাইকে Fold করিয়ে chips জিতুন.",
+          "fil": "Manalo ng chips gamit ang pinakamahusay na five-card hand sa Showdown o sa pagpap-Fold sa lahat ng ibang active players."
+        },
+        "setup": {
+          "en": "Each player receives two private hole cards. The Small Blind and Big Blind are posted before the first betting round.",
+          "hi": "हर खिलाड़ी को दो private hole cards मिलते हैं. पहली betting round से पहले Small Blind और Big Blind पोस्ट होते हैं.",
+          "es": "Cada jugador recibe dos hole cards privadas. Small Blind y Big Blind se colocan antes de la primera ronda.",
+          "pt": "Cada jogador recebe duas hole cards. Small Blind e Big Blind são pagos antes da primeira rodada.",
+          "bn": "প্রতিটি খেলোয়াড় দুইটি private hole card পায়. প্রথম betting round-এর আগে Small Blind ও Big Blind দেওয়া হয়.",
+          "fil": "Bawat player ay may dalawang private hole cards. Small Blind at Big Blind ay inilalagay bago ang unang betting round."
+        },
+        "turns": {
+          "en": "The hand moves through Pre-Flop, Flop, Turn, River, and Showdown. A fresh betting round takes place on each street.",
+          "hi": "Hand Pre-Flop, Flop, Turn, River और Showdown से गुजरता है. हर street पर नई betting round होती है.",
+          "es": "La mano pasa por Pre-Flop, Flop, Turn, River y Showdown, con una nueva ronda de apuestas en cada street.",
+          "pt": "A mão passa por Pre-Flop, Flop, Turn, River e Showdown, com nova rodada de apostas em cada street.",
+          "bn": "Hand Pre-Flop, Flop, Turn, River এবং Showdown-এর মধ্য দিয়ে যায়. প্রতি street-এ নতুন betting round.",
+          "fil": "Dumadaan ang hand sa Pre-Flop, Flop, Turn, River at Showdown, na may bagong betting round sa bawat street."
+        },
+        "actions": {
+          "en": "Check when you have already matched the current bet, Call to match it, Raise to increase it, Fold to leave the hand, or go All-In by committing all remaining chips.",
+          "hi": "Current bet match होने पर Check, उसे match करने के लिए Call, बढ़ाने के लिए Raise, hand छोड़ने के लिए Fold, या सभी बाकी chips लगाने के लिए All-In.",
+          "es": "Check si ya igualaste la apuesta, Call para igualarla, Raise para aumentarla, Fold para abandonar o All-In para comprometer todas tus fichas restantes.",
+          "pt": "Check quando já igualou a aposta, Call para igualar, Raise para aumentar, Fold para sair da mão ou All-In com todas as fichas restantes.",
+          "bn": "Current bet match হলে Check, match করতে Call, বাড়াতে Raise, hand ছাড়তে Fold, অথবা সব remaining chips দিয়ে All-In.",
+          "fil": "Check kapag matched na ang current bet, Call para i-match, Raise para taasan, Fold para umalis sa hand, o All-In para ilagay lahat ng natitirang chips."
+        },
+        "winning": {
+          "en": "At Showdown, each remaining player uses the best five-card combination available from their two hole cards and the five community cards. If everyone else Folds, the last active player wins immediately.",
+          "hi": "Showdown में हर खिलाड़ी अपने दो hole cards और पाँच community cards में से उपलब्ध सबसे अच्छा पाँच-card combination उपयोग करता है. बाकी सभी Fold करें तो अंतिम active player तुरंत जीतता है.",
+          "es": "En Showdown se usa la mejor combinación de cinco cartas disponible entre las dos hole cards y cinco comunitarias. Si todos los demás hacen Fold, el último activo gana inmediatamente.",
+          "pt": "No Showdown vale a melhor combinação de cinco cartas entre as duas hole cards e cinco comunitárias. Se todos os outros fizerem Fold, o último ativo vence imediatamente.",
+          "bn": "Showdown-এ দুই hole card ও পাঁচ community card থেকে সেরা পাঁচ-card combination ব্যবহৃত হয়. অন্য সবাই Fold করলে শেষ active player সঙ্গে সঙ্গে জেতে.",
+          "fil": "Sa Showdown, ginagamit ang pinakamahusay na five-card combination mula sa dalawang hole cards at limang community cards. Kapag lahat ng iba ay Fold, panalo agad ang huling active player."
+        },
+        "scoring": {
+          "en": "Hand order from strongest to weakest is Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card.",
+          "hi": "सबसे मजबूत से कमजोर: Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card.",
+          "es": "Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card.",
+          "pt": "Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card.",
+          "bn": "Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card.",
+          "fil": "Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card."
+        },
+        "specialRules": {
+          "en": "Victory World burns one card before dealing the Flop, Turn, and River. The Flop contains three community cards, the Turn adds one, and the River adds one. A-2-3-4-5 is a valid low Straight. Side pots are created automatically when players are All-In. Tied eligible hands split the appropriate pot.",
+          "hi": "Flop, Turn और River से पहले एक card burn होता है. Flop में 3 community cards, Turn में 1 और River में 1 card जुड़ता है. A-2-3-4-5 valid low Straight है. All-In पर side pots automatic बनते हैं. Tie होने पर पात्र खिलाड़ियों में pot बाँटा जाता है.",
+          "es": "Se quema una carta antes del Flop, Turn y River. Flop muestra 3 comunitarias, Turn añade 1 y River añade 1. A-2-3-4-5 es una Straight baja válida. Los side pots se crean automáticamente con All-In y los empates dividen el bote correspondiente.",
+          "pt": "Uma carta é queimada antes do Flop, Turn e River. Flop tem 3 cartas, Turn adiciona 1 e River adiciona 1. A-2-3-4-5 é Straight baixa válida. Side pots são criados automaticamente em All-In e empates dividem o pote elegível.",
+          "bn": "Flop, Turn ও River-এর আগে একটি card burn হয়. Flop-এ 3 card, Turn-এ 1, River-এ 1 card. A-2-3-4-5 valid low Straight. All-In হলে side pot automatic হয়. Tie হলে সংশ্লিষ্ট pot ভাগ হয়.",
+          "fil": "May isang burn card bago ang Flop, Turn at River. Flop = 3 community cards, Turn = 1, River = 1. Valid low Straight ang A-2-3-4-5. Awtomatikong gumagawa ng side pots kapag may All-In at hinahati ang pot kapag tied ang eligible hands."
+        }
+      },
+      "howToPlay": {
+        "gettingStarted": {
+          "en": "After the blinds are posted, review your two hole cards and decide whether to continue in the hand.",
+          "hi": "Blinds पोस्ट होने के बाद अपने दो hole cards देखें और तय करें कि hand में बने रहना है या नहीं.",
+          "es": "Después de los blinds, revisa tus dos hole cards y decide si continuar.",
+          "pt": "Após os blinds, veja suas duas hole cards e decida se continuará.",
+          "bn": "Blinds দেওয়ার পরে দুই hole card দেখে hand চালিয়ে যাবেন কিনা ঠিক করুন.",
+          "fil": "Pagkatapos mailagay ang blinds, tingnan ang iyong dalawang hole cards at magpasya kung magpapatuloy."
+        },
+        "stepByStep": {
+          "en": "1. Play the Pre-Flop betting round. 2. Three community cards are dealt on the Flop. 3. Bet again. 4. One card is dealt on the Turn, followed by another betting round. 5. One card is dealt on the River, followed by the final betting round. 6. Remaining players reach Showdown.",
+          "hi": "1. Pre-Flop betting. 2. Flop पर 3 cards. 3. Betting. 4. Turn पर 1 card और betting. 5. River पर 1 card और final betting. 6. बाकी खिलाड़ी Showdown पर जाते हैं.",
+          "es": "1. Pre-Flop. 2. Flop con 3 cartas. 3. Apuestas. 4. Turn y apuestas. 5. River y apuestas finales. 6. Showdown.",
+          "pt": "1. Pre-Flop. 2. Flop com 3 cartas. 3. Apostas. 4. Turn e apostas. 5. River e apostas finais. 6. Showdown.",
+          "bn": "1. Pre-Flop betting. 2. Flop-এ 3 cards. 3. Betting. 4. Turn ও betting. 5. River ও final betting. 6. Showdown.",
+          "fil": "1. Pre-Flop betting. 2. Flop na may 3 cards. 3. Betting. 4. Turn at betting. 5. River at final betting. 6. Showdown."
+        },
+        "beginnerTips": {
+          "en": "You do not have to use both hole cards. Your final result is always the best five-card hand available from all seven cards you can use.",
+          "hi": "दोनों hole cards का उपयोग करना जरूरी नहीं. आपका परिणाम उपलब्ध सात cards में से सबसे अच्छे पाँच cards से बनता है.",
+          "es": "No tienes que usar ambas hole cards. Siempre cuenta la mejor mano de cinco cartas entre las siete disponibles.",
+          "pt": "Não é obrigatório usar as duas hole cards. Sempre vale a melhor mão de cinco cartas entre as sete disponíveis.",
+          "bn": "দুই hole card-ই ব্যবহার করতে হবে এমন নয়. সাতটি available card থেকে সেরা পাঁচটি আপনার final hand.",
+          "fil": "Hindi kailangang gamitin ang parehong hole cards. Ang final hand ay pinakamahusay na limang cards mula sa pitong available."
+        }
+      },
+      "gameModes": {
+        "practice": {
+          "en": "Practice mode lets you learn Texas Hold'em against computer-controlled play and become familiar with blinds, betting actions, board cards, and hand rankings.",
+          "hi": "Practice mode computer-controlled play के खिलाफ blinds, betting actions, board cards और hand rankings सीखने देता है.",
+          "es": "Practice te permite aprender blinds, apuestas, board cards y clasificaciones contra juego controlado por computadora.",
+          "pt": "Practice ensina blinds, ações, board cards e rankings contra jogo controlado por computador.",
+          "bn": "Practice mode computer play-এর বিরুদ্ধে blinds, actions, board cards ও rankings শেখায়.",
+          "fil": "Practice mode ay para matutunan ang blinds, betting actions, board cards at rankings laban sa computer-controlled play."
+        },
+        "privateRoom": {
+          "en": "Create a private room and share its room code. The chosen player count is the capacity. The host may begin once the minimum player requirement is met. Players may join available seats later and enter at the next valid hand.",
+          "hi": "Private Room बनाएँ और code साझा करें. चुनी गई player count capacity है. Minimum players होने पर host शुरू कर सकता है. Late joiners अगले valid hand में प्रवेश करते हैं.",
+          "es": "Crea una sala privada y comparte el código. La cantidad elegida es la capacidad. El host puede comenzar al alcanzar el mínimo y los late joiners entran en la siguiente mano válida.",
+          "pt": "Crie uma sala privada e compartilhe o código. O número escolhido é a capacidade. O host inicia com o mínimo e late joiners entram na próxima mão válida.",
+          "bn": "Private Room তৈরি করে code দিন. নির্বাচিত player count capacity. Minimum players হলে host শুরু করতে পারে. Late joiners পরের valid hand-এ প্রবেশ করে.",
+          "fil": "Gumawa ng private room at ibahagi ang code. Ang napiling player count ay capacity. Maaaring magsimula ang host sa minimum players at late joiners ay papasok sa susunod na valid hand."
+        },
+        "publicOnline": {
+          "en": "Public Online finds other available Poker players and starts play when enough eligible players are present.",
+          "hi": "Public Online उपलब्ध Poker players ढूँढता है और पर्याप्त eligible players होने पर खेल शुरू करता है.",
+          "es": "Public Online encuentra jugadores disponibles y comienza cuando hay suficientes jugadores elegibles.",
+          "pt": "Public Online encontra jogadores disponíveis e começa quando há jogadores elegíveis suficientes.",
+          "bn": "Public Online উপলভ্য Poker players খুঁজে যথেষ্ট eligible players হলে শুরু করে.",
+          "fil": "Public Online ay naghahanap ng available Poker players at nagsisimula kapag sapat ang eligible players."
+        }
+      }
+    },
+    "blackjack": {
+      "title": {
+        "en": "Blackjack",
+        "hi": "ब्लैकजैक",
+        "es": "Blackjack",
+        "pt": "Blackjack",
+        "bn": "ব্ল্যাকজ্যাক",
+        "fil": "Blackjack"
+      },
+      "intro": {
+        "en": "Blackjack is a dealer game where the goal is to finish closer to 21 than the dealer without going over 21.",
+        "hi": "Blackjack में लक्ष्य 21 से ऊपर गए बिना dealer से 21 के अधिक करीब पहुँचना है.",
+        "es": "El objetivo es terminar más cerca de 21 que el dealer sin superar 21.",
+        "pt": "O objetivo é terminar mais perto de 21 que o dealer sem ultrapassar 21.",
+        "bn": "Blackjack-এ লক্ষ্য হলো ২১ ছাড়িয়ে না গিয়ে dealer-এর চেয়ে ২১-এর কাছাকাছি থাকা.",
+        "fil": "Layunin ng Blackjack na mas mapalapit sa 21 kaysa dealer nang hindi lalampas sa 21."
+      },
+      "rules": {
+        "objective": {
+          "en": "Beat the dealer by making a stronger valid total without exceeding 21.",
+          "hi": "21 से अधिक हुए बिना dealer से मजबूत valid total बनाकर जीतें.",
+          "es": "Supera al dealer con un total válido más fuerte sin pasar de 21.",
+          "pt": "Vença o dealer com um total válido mais alto sem passar de 21.",
+          "bn": "২১-এর বেশি না হয়ে dealer-এর চেয়ে শক্তিশালী valid total তৈরি করুন.",
+          "fil": "Talunin ang dealer sa pamamagitan ng mas mataas na valid total nang hindi lumalagpas sa 21."
+        },
+        "setup": {
+          "en": "Number cards use their face value. Jack, Queen, and King are worth 10. An Ace counts as 11 unless changing it to 1 is necessary to avoid a bust.",
+          "hi": "Number cards face value, Jack/Queen/King = 10. Ace सामान्यतः 11 है लेकिन bust से बचाने के लिए जरूरत होने पर 1 बन जाता है.",
+          "es": "Las cartas numéricas valen su número. J, Q y K valen 10. El As vale 11 salvo que deba convertirse en 1 para evitar Bust.",
+          "pt": "Cartas numéricas valem o número. J, Q e K valem 10. Ás vale 11, mas vira 1 quando necessário para evitar Bust.",
+          "bn": "Number card = face value. J/Q/K = 10. Ace = 11, তবে Bust এড়াতে প্রয়োজনে 1 হয়.",
+          "fil": "Number cards = face value. J/Q/K = 10. Ace = 11 ngunit nagiging 1 kapag kailangan para maiwasan ang Bust."
+        },
+        "turns": {
+          "en": "Players complete their hands before the dealer finishes the dealer hand. The dealer draws while below 17 and stands on 17 or higher.",
+          "hi": "Players अपने hands पूरा करते हैं, फिर dealer अपना hand पूरा करता है. Dealer 17 से कम पर draw करता है और 17 या अधिक पर stand करता है.",
+          "es": "Los jugadores completan sus manos antes del dealer. El dealer roba por debajo de 17 y se planta con 17 o más.",
+          "pt": "Os jogadores completam as mãos antes do dealer. O dealer compra abaixo de 17 e para em 17 ou mais.",
+          "bn": "Players আগে তাদের hand শেষ করে, তারপর dealer খেলে. Dealer 17-এর নিচে draw করে এবং 17 বা বেশি হলে stand.",
+          "fil": "Tinatapos muna ng players ang kanilang hands bago ang dealer. Nagda-draw ang dealer kapag mas mababa sa 17 at nag-Stand sa 17 o higit pa."
+        },
+        "actions": {
+          "en": "Hit takes another card. Stand ends action on the current hand. Double Down doubles the wager, deals exactly one more card, and then stands. Split is available on two cards of the same rank when you can place another equal wager. Insurance is offered when the dealer shows an Ace. Surrender ends an eligible original two-card hand and returns half the wager.",
+          "hi": "Hit = एक और card. Stand = current hand समाप्त. Double Down = bet दोगुना, ठीक एक card, फिर automatic stand. Split = समान rank के दो cards और पर्याप्त chips होने पर दो hands. Insurance = dealer Ace दिखाए तो उपलब्ध. Surrender = eligible original two-card hand छोड़कर आधा wager वापस.",
+          "es": "Hit toma una carta. Stand termina la mano. Double Down duplica la apuesta, entrega exactamente una carta y se planta. Split divide dos cartas del mismo rango si hay fichas suficientes. Insurance se ofrece cuando el dealer muestra un As. Surrender devuelve la mitad de la apuesta en una mano original elegible.",
+          "pt": "Hit compra uma carta. Stand encerra a mão. Double Down dobra a aposta, compra exatamente uma carta e para. Split divide duas cartas do mesmo rank com fichas suficientes. Insurance aparece quando o dealer mostra Ás. Surrender devolve metade da aposta em uma mão original elegível.",
+          "bn": "Hit = আরেকটি card. Stand = current hand শেষ. Double Down = bet দ্বিগুণ, ঠিক একটি card, তারপর stand. Split = same rank-এর দুই card ও যথেষ্ট chips থাকলে দুই hand. Insurance = dealer Ace দেখালে. Surrender = eligible original two-card hand ছেড়ে অর্ধেক wager ফেরত.",
+          "fil": "Hit = kumuha ng card. Stand = tapusin ang current hand. Double Down = doblehin ang bet, kumuha ng eksaktong isang card, pagkatapos Stand. Split = hatiin ang dalawang same-rank cards kung sapat ang chips. Insurance = kapag Ace ang visible dealer card. Surrender = tapusin ang eligible original two-card hand at ibalik ang kalahati ng wager."
+        },
+        "winning": {
+          "en": "You win if your valid total is higher than the dealer's, or if the dealer Busts while you do not. Equal valid totals are a Push.",
+          "hi": "यदि आपका valid total dealer से अधिक है, या dealer bust करता है और आप नहीं, तो आप जीतते हैं. बराबर total Push है.",
+          "es": "Ganas si tu total válido supera al dealer o si el dealer Bust y tú no. Totales iguales producen Push.",
+          "pt": "Você vence se seu total válido for maior que o do dealer ou se o dealer Bust e você não. Totais iguais são Push.",
+          "bn": "আপনার valid total dealer-এর চেয়ে বেশি হলে, বা dealer Bust করলে এবং আপনি না করলে জয়. সমান হলে Push.",
+          "fil": "Panalo kung mas mataas ang valid total mo kaysa dealer o kung Bust ang dealer at ikaw ay hindi. Kapag pareho ang total, Push."
+        },
+        "scoring": {
+          "en": "A normal win pays 1:1. A natural two-card Blackjack pays 3:2. A 21 made after splitting is a normal win, not a natural Blackjack. Insurance pays 2:1 profit when the dealer has Blackjack. A Push returns the wager. Surrender returns half the wager.",
+          "hi": "Normal win 1:1. Natural two-card Blackjack 3:2. Split के बाद 21 normal win है, natural Blackjack नहीं. Insurance 2:1 profit. Push में wager वापस. Surrender में आधा wager वापस.",
+          "es": "Victoria normal 1:1. Blackjack natural de dos cartas 3:2. Un 21 después de Split es victoria normal. Insurance paga beneficio 2:1. Push devuelve la apuesta. Surrender devuelve la mitad.",
+          "pt": "Vitória normal 1:1. Blackjack natural de duas cartas 3:2. 21 após Split é vitória normal. Insurance paga lucro 2:1. Push devolve a aposta. Surrender devolve metade.",
+          "bn": "Normal win 1:1. Natural two-card Blackjack 3:2. Split-এর পরে 21 normal win. Insurance 2:1 profit. Push-এ wager ফেরত. Surrender-এ অর্ধেক ফেরত.",
+          "fil": "Normal win 1:1. Natural two-card Blackjack 3:2. Ang 21 pagkatapos ng Split ay normal win. Insurance = 2:1 profit. Push = balik wager. Surrender = kalahati ng wager."
+        },
+        "specialRules": {
+          "en": "Double Down is available only on an eligible two-card hand with enough chips. Split requires two cards of the same rank. Insurance costs half the original wager. In multiplayer, the next wager can be selected at 1x, 2x, 5x, or 10x the room bet when sufficient chips are available.",
+          "hi": "Double Down केवल eligible two-card hand और पर्याप्त chips पर. Split के लिए समान rank चाहिए. Insurance original wager का आधा है. Multiplayer में अगले wager के लिए room bet का 1x, 2x, 5x या 10x चुना जा सकता है.",
+          "es": "Double Down requiere una mano elegible de dos cartas y fichas suficientes. Split requiere mismo rango. Insurance cuesta la mitad de la apuesta original. En multiplayer puedes elegir 1x, 2x, 5x o 10x la apuesta de la sala para la siguiente ronda.",
+          "pt": "Double Down exige mão elegível de duas cartas e fichas suficientes. Split exige mesmo rank. Insurance custa metade da aposta original. No multiplayer, a próxima aposta pode ser 1x, 2x, 5x ou 10x a aposta da sala.",
+          "bn": "Double Down শুধুমাত্র eligible two-card hand ও যথেষ্ট chips-এ. Split-এর জন্য same rank. Insurance original wager-এর অর্ধেক. Multiplayer-এ next wager room bet-এর 1x, 2x, 5x বা 10x.",
+          "fil": "Double Down ay para lang sa eligible two-card hand na may sapat na chips. Split ay nangangailangan ng same rank. Insurance ay kalahati ng original wager. Sa multiplayer, maaaring pumili ng 1x, 2x, 5x o 10x room bet para sa susunod na wager."
+        }
+      },
+      "howToPlay": {
+        "gettingStarted": {
+          "en": "Review your starting cards and the dealer's visible card, then choose the best available action.",
+          "hi": "अपने starting cards और dealer का visible card देखें और उपलब्ध best action चुनें.",
+          "es": "Mira tus cartas iniciales y la carta visible del dealer y elige la mejor acción disponible.",
+          "pt": "Veja suas cartas iniciais e a carta visível do dealer e escolha a melhor ação disponível.",
+          "bn": "নিজের starting cards এবং dealer-এর visible card দেখে best action বেছে নিন.",
+          "fil": "Tingnan ang starting cards at visible dealer card at piliin ang pinakamahusay na available action."
+        },
+        "stepByStep": {
+          "en": "1. Receive your starting hand. 2. Choose Hit, Stand, Double Down, Split, Insurance, or Surrender when available. 3. Finish each of your active hands. 4. The dealer draws according to the dealer rule. 5. Each hand is settled as Win, Lose, Push, or Surrender.",
+          "hi": "1. Starting hand लें. 2. उपलब्ध होने पर Hit, Stand, Double Down, Split, Insurance या Surrender चुनें. 3. सभी active hands पूरा करें. 4. Dealer rule के अनुसार cards लेता है. 5. हर hand Win, Lose, Push या Surrender होता है.",
+          "es": "1. Recibe la mano inicial. 2. Usa Hit, Stand, Double Down, Split, Insurance o Surrender cuando estén disponibles. 3. Completa cada mano. 4. El dealer juega según su regla. 5. Cada mano termina Win, Lose, Push o Surrender.",
+          "pt": "1. Receba a mão inicial. 2. Use Hit, Stand, Double Down, Split, Insurance ou Surrender quando disponíveis. 3. Termine cada mão. 4. O dealer joga pela regra. 5. Cada mão termina Win, Lose, Push ou Surrender.",
+          "bn": "1. Starting hand নিন. 2. Available হলে Hit, Stand, Double Down, Split, Insurance বা Surrender. 3. Active hands শেষ করুন. 4. Dealer rule অনুযায়ী খেলে. 5. প্রতিটি hand Win, Lose, Push বা Surrender হয়.",
+          "fil": "1. Tanggapin ang starting hand. 2. Piliin ang Hit, Stand, Double Down, Split, Insurance o Surrender kapag available. 3. Tapusin ang bawat active hand. 4. Maglalaro ang dealer ayon sa dealer rule. 5. Bawat hand ay Win, Lose, Push o Surrender."
+        },
+        "beginnerTips": {
+          "en": "Remember that Aces automatically adjust between 11 and 1 when necessary. Going over 21 is an immediate Bust regardless of what the dealer later draws.",
+          "hi": "Ace जरूरत के अनुसार 11 से 1 हो जाता है. 21 से ऊपर जाने पर तुरंत Bust होता है, चाहे dealer बाद में क्या draw करे.",
+          "es": "Los Ases cambian automáticamente entre 11 y 1 cuando es necesario. Superar 21 es Bust inmediato.",
+          "pt": "O Ás muda automaticamente entre 11 e 1 quando necessário. Passar de 21 é Bust imediato.",
+          "bn": "Ace প্রয়োজনে 11 থেকে 1 হয়. 21 ছাড়ালেই সঙ্গে সঙ্গে Bust.",
+          "fil": "Awtomatikong nag-a-adjust ang Ace sa 11 o 1 kapag kailangan. Kapag lumampas sa 21, Bust agad."
+        }
+      },
+      "gameModes": {
+        "practice": {
+          "en": "Practice mode lets you learn Blackjack against the dealer without joining a public multiplayer room.",
+          "hi": "Practice mode में public multiplayer room में गए बिना dealer के खिलाफ Blackjack सीख सकते हैं.",
+          "es": "Practice permite aprender contra el dealer sin entrar en una sala pública.",
+          "pt": "Practice permite aprender contra o dealer sem entrar em sala pública.",
+          "bn": "Practice mode-এ public room ছাড়া dealer-এর বিরুদ্ধে Blackjack শেখা যায়.",
+          "fil": "Practice mode ay para matutunan ang Blackjack laban sa dealer nang hindi pumapasok sa public room."
+        },
+        "privateRoom": {
+          "en": "Create a private room and invite friends with the room code. The chosen player count is the room capacity. The host may start once the minimum requirement is met. Players may join available seats later at the next valid round.",
+          "hi": "Private Room बनाएँ और room code से दोस्तों को बुलाएँ. चुनी गई player count capacity है. Minimum players होने पर host शुरू कर सकता है. Late joiners अगले valid round में प्रवेश करते हैं.",
+          "es": "Crea una sala privada y comparte el código. La cantidad seleccionada es la capacidad. El host puede comenzar al alcanzar el mínimo y los late joiners entran en la siguiente ronda válida.",
+          "pt": "Crie uma sala privada e compartilhe o código. O número selecionado é a capacidade. O host inicia com o mínimo e late joiners entram na próxima rodada válida.",
+          "bn": "Private Room তৈরি করে code দিন. Player count হলো capacity. Minimum players হলে host শুরু করতে পারে. Late joiners পরের valid round-এ যোগ দেয়.",
+          "fil": "Gumawa ng private room at ibahagi ang code. Ang player count ay capacity. Maaaring magsimula ang host kapag umabot sa minimum at late joiners ay papasok sa susunod na valid round."
+        },
+        "publicOnline": {
+          "en": "Public Online matches available Blackjack players into a shared room where each player competes against the dealer.",
+          "hi": "Public Online उपलब्ध Blackjack players को shared room में match करता है जहाँ हर player dealer के खिलाफ खेलता है.",
+          "es": "Public Online agrupa jugadores disponibles en una sala compartida donde cada uno compite contra el dealer.",
+          "pt": "Public Online reúne jogadores disponíveis em uma sala compartilhada onde cada jogador enfrenta o dealer.",
+          "bn": "Public Online available Blackjack players-কে shared room-এ match করে যেখানে সবাই dealer-এর বিরুদ্ধে খেলে.",
+          "fil": "Public Online ay nagma-match ng available Blackjack players sa shared room kung saan bawat player ay laban sa dealer."
+        }
+      }
+    },
+    "ludo": {
+      "title": {
+        "en": "Ludo",
+        "hi": "लूडो",
+        "es": "Ludo",
+        "pt": "Ludo",
+        "bn": "লুডো",
+        "fil": "Ludo"
+      },
+      "intro": {
+        "en": "Victory World Ludo is a 2-to-4 player race game. Each player controls four tokens and tries to bring all four home first.",
+        "hi": "Victory World Ludo 2 से 4 खिलाड़ियों का race game है. हर खिलाड़ी के चार tokens होते हैं और लक्ष्य चारों को सबसे पहले Home पहुँचाना है.",
+        "es": "Victory World Ludo es una carrera para 2 a 4 jugadores. Cada jugador controla cuatro fichas y trata de llevarlas todas a Home primero.",
+        "pt": "Victory World Ludo é uma corrida para 2 a 4 jogadores. Cada jogador controla quatro peças e tenta levar todas para Home primeiro.",
+        "bn": "Victory World Ludo ২ থেকে ৪ জনের race game. প্রত্যেকের চারটি token থাকে এবং লক্ষ্য সব চারটি token আগে Home পৌঁছানো.",
+        "fil": "Ang Victory World Ludo ay race game para sa 2 hanggang 4 players. Bawat player ay may apat na tokens at kailangang maunang maiuwi ang lahat."
+      },
+      "rules": {
+        "objective": {
+          "en": "Be the first player to move all four of your tokens from the yard, around the board, through your home path, and into Home.",
+          "hi": "अपने सभी चार tokens को yard से निकालकर board के चारों ओर, home path से होते हुए Home तक सबसे पहले पहुँचाएँ.",
+          "es": "Sé el primero en mover tus cuatro fichas desde el yard, alrededor del tablero, por tu camino final y hasta Home.",
+          "pt": "Seja o primeiro a mover as quatro peças do yard, ao redor do tabuleiro, pelo caminho final e até Home.",
+          "bn": "চারটি token yard থেকে বের করে board ঘুরিয়ে home path দিয়ে সবার আগে Home পৌঁছান.",
+          "fil": "Maging unang makapaglabas ng lahat ng apat na tokens mula yard, umikot sa board, dumaan sa home path at makarating sa Home."
+        },
+        "setup": {
+          "en": "Each player has four tokens of one color. All tokens begin in the yard.",
+          "hi": "हर खिलाड़ी के पास एक रंग के चार tokens होते हैं. सभी tokens yard में शुरू होते हैं.",
+          "es": "Cada jugador tiene cuatro fichas de un color. Todas comienzan en el yard.",
+          "pt": "Cada jogador possui quatro peças de uma cor. Todas começam no yard.",
+          "bn": "প্রতিটি খেলোয়াড়ের এক রঙের চারটি token থাকে. সব token yard থেকে শুরু করে.",
+          "fil": "Bawat player ay may apat na tokens ng isang kulay. Lahat ay nagsisimula sa yard."
+        },
+        "turns": {
+          "en": "Roll the dice, then choose one legal highlighted token to move. If no legal move exists, the game resolves the roll automatically.",
+          "hi": "Dice roll करें, फिर highlighted legal token चुनें. Legal move न हो तो game roll को automatically resolve करता है.",
+          "es": "Lanza el dado y elige una ficha legal resaltada. Si no hay movimiento legal, el juego resuelve la tirada automáticamente.",
+          "pt": "Role o dado e escolha uma peça legal destacada. Se não houver movimento legal, o jogo resolve a jogada automaticamente.",
+          "bn": "Dice roll করুন, তারপর highlighted legal token বেছে নিন. কোনো legal move না থাকলে game automatically roll resolve করে.",
+          "fil": "I-roll ang dice at pumili ng highlighted legal token. Kung walang legal move, awtomatikong nire-resolve ng game ang roll."
+        },
+        "actions": {
+          "en": "A token can leave the yard only when you roll a 6. Tokens already in play move forward by the dice value. You must have an exact roll to reach Home.",
+          "hi": "Yard से token केवल 6 पर निकलता है. Board पर मौजूद token dice value के अनुसार आगे बढ़ता है. Home पहुँचने के लिए exact roll चाहिए.",
+          "es": "Una ficha solo sale del yard al sacar 6. Las fichas en juego avanzan el valor del dado. Se necesita una tirada exacta para entrar en Home.",
+          "pt": "Uma peça só sai do yard ao tirar 6. Peças em jogo avançam o valor do dado. É necessário valor exato para chegar a Home.",
+          "bn": "Yard থেকে token শুধু 6-এ বের হয়. Board-এর token dice value অনুযায়ী এগোয়. Home-এ পৌঁছাতে exact roll লাগে.",
+          "fil": "Makakalabas lang ang token mula yard kapag 6 ang roll. Ang token sa board ay gagalaw ayon sa dice value. Kailangan ng eksaktong roll para makarating sa Home."
+        },
+        "winning": {
+          "en": "The first player to bring all four tokens Home wins the game.",
+          "hi": "जो खिलाड़ी सबसे पहले अपने चारों tokens Home पहुँचाता है वह जीतता है.",
+          "es": "El primer jugador que lleva sus cuatro fichas a Home gana.",
+          "pt": "O primeiro jogador a levar as quatro peças para Home vence.",
+          "bn": "যে খেলোয়াড় আগে চারটি token Home পৌঁছায় সে জেতে.",
+          "fil": "Ang unang player na makapag-Home ng lahat ng apat na tokens ang panalo."
+        },
+        "scoring": {
+          "en": "Ludo does not use card-style point scoring. Progress is measured by how far your four tokens have advanced toward Home.",
+          "hi": "Ludo में card-style points नहीं हैं. Progress आपके tokens के Home की ओर बढ़ने से मापा जाता है.",
+          "es": "Ludo no usa puntos como los juegos de cartas. El progreso se mide por el avance de tus fichas hacia Home.",
+          "pt": "Ludo não usa pontuação como jogos de cartas. O progresso é medido pela distância das peças até Home.",
+          "bn": "Ludo-তে card-style points নেই. Progress হলো token Home-এর দিকে কতদূর গেছে.",
+          "fil": "Walang card-style points ang Ludo. Ang progress ay base sa layo ng tokens papunta sa Home."
+        },
+        "specialRules": {
+          "en": "Safe squares protect tokens from capture. Landing on an opponent token on a non-safe square captures it and sends it back to the yard. Rolling a 6 earns another turn. Capturing an opponent also earns another turn. If you roll three consecutive 6s, the turn is forfeited and the moves made during that six-streak are rolled back.",
+          "hi": "Safe squares पर capture नहीं होता. Non-safe square पर opponent token पर landing उसे yard भेजता है. 6 roll करने पर extra turn. Capture करने पर extra turn. लगातार तीन 6 आने पर turn forfeited होता है और उस six-streak के दौरान की गई moves rollback होती हैं.",
+          "es": "Las casillas seguras protegen contra capturas. Caer sobre un rival en una casilla no segura lo envía al yard. Sacar 6 da turno extra. Capturar también da turno extra. Tres 6 consecutivos hacen perder el turno y revierten los movimientos realizados durante esa racha.",
+          "pt": "Casas seguras impedem captura. Cair sobre adversário em casa não segura envia a peça ao yard. Tirar 6 dá turno extra. Capturar também dá turno extra. Três 6 consecutivos fazem perder o turno e desfazem os movimentos realizados durante essa sequência.",
+          "bn": "Safe square-এ capture হয় না. Non-safe square-এ opponent token-এর ওপর landing করলে সেটি yard-এ যায়. 6 পেলে extra turn. Capture করলে extra turn. টানা তিনটি 6 হলে turn forfeited এবং সেই six-streak-এর moves rollback হয়.",
+          "fil": "Hindi maaaring ma-capture sa safe squares. Kapag lumapag sa opponent sa non-safe square, babalik ang token nito sa yard. Roll ng 6 = extra turn. Capture = extra turn. Tatlong sunod na 6 = forfeited ang turn at ibinabalik ang moves na ginawa sa six-streak."
+        }
+      },
+      "howToPlay": {
+        "gettingStarted": {
+          "en": "Roll a 6 to bring a token out of your yard and onto your starting square.",
+          "hi": "6 roll करके token को yard से starting square पर लाएँ.",
+          "es": "Saca un 6 para mover una ficha desde el yard a tu casilla inicial.",
+          "pt": "Tire 6 para mover uma peça do yard para sua casa inicial.",
+          "bn": "6 roll করে token yard থেকে starting square-এ আনুন.",
+          "fil": "Mag-roll ng 6 para mailabas ang token mula yard papunta sa starting square."
+        },
+        "stepByStep": {
+          "en": "1. Roll the dice. 2. Choose a legal token. 3. Move it by the rolled value. 4. Use safe squares when possible and capture opponents on ordinary squares. 5. Move each token into your home path. 6. Use an exact roll to reach Home. 7. Bring all four tokens Home to win.",
+          "hi": "1. Dice roll करें. 2. Legal token चुनें. 3. Roll के अनुसार move करें. 4. Safe squares का उपयोग करें और ordinary squares पर opponents capture करें. 5. Tokens को home path में लाएँ. 6. Exact roll से Home पहुँचें. 7. चारों tokens Home करके जीतें.",
+          "es": "1. Lanza el dado. 2. Elige una ficha legal. 3. Muévela. 4. Usa casillas seguras y captura en casillas normales. 5. Entra en tu camino final. 6. Usa una tirada exacta para Home. 7. Lleva las cuatro fichas a Home para ganar.",
+          "pt": "1. Role o dado. 2. Escolha uma peça legal. 3. Mova pelo valor. 4. Use casas seguras e capture em casas comuns. 5. Entre no caminho final. 6. Use valor exato para Home. 7. Leve as quatro peças a Home para vencer.",
+          "bn": "1. Dice roll. 2. Legal token নির্বাচন. 3. Roll অনুযায়ী move. 4. Safe square ব্যবহার এবং ordinary square-এ capture. 5. Home path-এ প্রবেশ. 6. Exact roll-এ Home. 7. চারটি token Home করে জয়.",
+          "fil": "1. Roll dice. 2. Piliin ang legal token. 3. Igalaw ayon sa roll. 4. Gumamit ng safe squares at mag-capture sa ordinary squares. 5. Pumasok sa home path. 6. Gumamit ng exact roll para Home. 7. Iuwi lahat ng apat para manalo."
+        },
+        "beginnerTips": {
+          "en": "You do not always need to move your most advanced token. Bringing additional tokens onto the board can give you more legal choices and more opportunities to capture opponents.",
+          "hi": "हमेशा सबसे आगे token को चलाना जरूरी नहीं. कई tokens board पर रखने से अधिक legal choices और capture opportunities मिलती हैं.",
+          "es": "No siempre conviene mover la ficha más adelantada. Tener varias fichas en el tablero ofrece más movimientos y oportunidades de captura.",
+          "pt": "Nem sempre é melhor mover a peça mais avançada. Ter várias peças no tabuleiro cria mais opções e oportunidades de captura.",
+          "bn": "সবসময় সবচেয়ে এগিয়ে থাকা token-ই চালানো দরকার নেই. একাধিক token board-এ থাকলে বেশি legal choice ও capture chance পাওয়া যায়.",
+          "fil": "Hindi laging pinakamagandang igalaw ang pinakamaunlad na token. Mas maraming tokens sa board ay nagbibigay ng mas maraming legal choices at capture opportunities."
+        }
+      },
+      "gameModes": {
+        "practice": {
+          "en": "Play With AI lets you practice locally against computer-controlled opponents.",
+          "hi": "Play With AI में computer-controlled opponents के खिलाफ local practice करें.",
+          "es": "Play With AI permite practicar localmente contra oponentes controlados por computadora.",
+          "pt": "Play With AI permite praticar localmente contra adversários controlados pelo computador.",
+          "bn": "Play With AI-এ computer-controlled opponents-এর বিরুদ্ধে local practice.",
+          "fil": "Play With AI ay local practice laban sa computer-controlled opponents."
+        },
+        "privateRoom": {
+          "en": "Create a private room and share the code with friends. The chosen player count is the room capacity. The host may begin once the minimum requirement is met, and players may join available positions later at the next safe starting point.",
+          "hi": "Private Room बनाएँ और code साझा करें. चुनी गई player count capacity है. Minimum players होने पर host शुरू कर सकता है. Late joiners उपलब्ध position पर अगले safe starting point में प्रवेश कर सकते हैं.",
+          "es": "Crea una sala privada y comparte el código. La cantidad elegida es la capacidad. El host puede iniciar al alcanzar el mínimo y los late joiners pueden entrar en la siguiente posición segura disponible.",
+          "pt": "Crie uma sala privada e compartilhe o código. O número escolhido é a capacidade. O host inicia quando há o mínimo e late joiners podem entrar no próximo ponto seguro disponível.",
+          "bn": "Private Room তৈরি করে code দিন. Player count হলো capacity. Minimum players হলে host শুরু করতে পারে. Late joiners পরের safe starting point-এ যোগ দিতে পারে.",
+          "fil": "Gumawa ng Private Room at ibahagi ang code. Ang player count ay capacity. Maaaring magsimula ang host kapag sapat ang minimum players at late joiners ay maaaring pumasok sa susunod na safe starting point."
+        },
+        "publicOnline": {
+          "en": "Public Online finds other available Ludo players and starts the game when enough eligible players are ready.",
+          "hi": "Public Online उपलब्ध Ludo players ढूँढता है और पर्याप्त eligible players होने पर game शुरू करता है.",
+          "es": "Public Online encuentra jugadores disponibles y empieza cuando hay suficientes jugadores elegibles.",
+          "pt": "Public Online encontra jogadores disponíveis e inicia quando há jogadores elegíveis suficientes.",
+          "bn": "Public Online available Ludo players খুঁজে যথেষ্ট eligible players হলে game শুরু করে.",
+          "fil": "Public Online ay naghahanap ng available Ludo players at nagsisimula kapag sapat ang eligible players."
+        }
+      }
+    }
+  }
+}
