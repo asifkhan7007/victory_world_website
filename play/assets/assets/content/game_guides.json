@@ -403,21 +403,21 @@
         "fil": "Blackjack"
       },
       "intro": {
-        "en": "Blackjack is a dealer game where the goal is to finish closer to 21 than the dealer without going over 21.",
-        "hi": "Blackjack में लक्ष्य 21 से ऊपर गए बिना dealer से 21 के अधिक करीब पहुँचना है.",
-        "es": "El objetivo es terminar más cerca de 21 que el dealer sin superar 21.",
-        "pt": "O objetivo é terminar mais perto de 21 que o dealer sem ultrapassar 21.",
-        "bn": "Blackjack-এ লক্ষ্য হলো ২১ ছাড়িয়ে না গিয়ে dealer-এর চেয়ে ২১-এর কাছাকাছি থাকা.",
-        "fil": "Layunin ng Blackjack na mas mapalapit sa 21 kaysa dealer nang hindi lalampas sa 21."
+        "en": "Victory World Blackjack keeps normal play against the dealer, but settlement is competitive and entirely player-funded. Victory World never acts as the bank or supplies winnings.",
+        "hi": "Victory World Blackjack में सामान्य खेल dealer के विरुद्ध होता है, लेकिन settlement competitive और पूरी तरह players के committed पैसे से होता है. Victory World bank नहीं है और winnings के लिए अपना पैसा नहीं देता.",
+        "es": "Victory World Blackjack conserva el juego normal contra el dealer, pero la liquidación es competitiva y totalmente financiada por los jugadores. Victory World no actúa como banca ni aporta dinero para premios.",
+        "pt": "Victory World Blackjack mantém o jogo normal contra o dealer, mas a liquidação é competitiva e totalmente financiada pelos jogadores. Victory World não atua como banca nem fornece dinheiro para prêmios.",
+        "bn": "Victory World Blackjack-এ dealer-এর বিরুদ্ধে স্বাভাবিক খেলা থাকে, কিন্তু settlement competitive এবং সম্পূর্ণভাবে players-এর committed অর্থে চলে. Victory World bank নয় এবং winnings-এর জন্য নিজস্ব অর্থ দেয় না.",
+        "fil": "Normal pa rin ang laro ng Victory World Blackjack laban sa dealer, ngunit competitive at ganap na player-funded ang settlement. Hindi bank ang Victory World at hindi ito nagbibigay ng sariling pera para sa winnings."
       },
       "rules": {
         "objective": {
-          "en": "Beat the dealer by making a stronger valid total without exceeding 21.",
-          "hi": "21 से अधिक हुए बिना dealer से मजबूत valid total बनाकर जीतें.",
-          "es": "Supera al dealer con un total válido más fuerte sin pasar de 21.",
-          "pt": "Vença o dealer com um total válido mais alto sem passar de 21.",
-          "bn": "২১-এর বেশি না হয়ে dealer-এর চেয়ে শক্তিশালী valid total তৈরি করুন.",
-          "fil": "Talunin ang dealer sa pamamagitan ng mas mataas na valid total nang hindi lumalagpas sa 21."
+          "en": "Stay at or below 21 and beat the dealer's valid total. A dealer Bust can make your hand a winner; equal valid totals are a Push.",
+          "hi": "21 या उससे कम रहें और dealer के valid total को हराएँ. Dealer Bust होने पर आपका hand जीत सकता है; समान valid totals Push हैं.",
+          "es": "Quédate en 21 o menos y supera el total válido del dealer. Un Bust del dealer puede hacer ganadora tu mano; totales válidos iguales son Push.",
+          "pt": "Fique em 21 ou menos e supere o total válido do dealer. Um Bust do dealer pode tornar sua mão vencedora; totais válidos iguais são Push.",
+          "bn": "21 বা তার কম থাকুন এবং dealer-এর valid total-কে হারান. Dealer Bust করলে আপনার hand জিততে পারে; সমান valid total হলো Push.",
+          "fil": "Manatili sa 21 o mas mababa at talunin ang valid total ng dealer. Maaaring manalo ang hand mo kapag Bust ang dealer; Push ang magkaparehong valid total."
         },
         "setup": {
           "en": "Number cards use their face value. Jack, Queen, and King are worth 10. An Ace counts as 11 unless changing it to 1 is necessary to avoid a bust.",
@@ -428,96 +428,96 @@
           "fil": "Number cards = face value. J/Q/K = 10. Ace = 11 ngunit nagiging 1 kapag kailangan para maiwasan ang Bust."
         },
         "turns": {
-          "en": "Players complete their hands before the dealer finishes the dealer hand. The dealer draws while below 17 and stands on 17 or higher.",
-          "hi": "Players अपने hands पूरा करते हैं, फिर dealer अपना hand पूरा करता है. Dealer 17 से कम पर draw करता है और 17 या अधिक पर stand करता है.",
-          "es": "Los jugadores completan sus manos antes del dealer. El dealer roba por debajo de 17 y se planta con 17 o más.",
-          "pt": "Os jogadores completam as mãos antes do dealer. O dealer compra abaixo de 17 e para em 17 ou mais.",
-          "bn": "Players আগে তাদের hand শেষ করে, তারপর dealer খেলে. Dealer 17-এর নিচে draw করে এবং 17 বা বেশি হলে stand.",
-          "fil": "Tinatapos muna ng players ang kanilang hands bago ang dealer. Nagda-draw ang dealer kapag mas mababa sa 17 at nag-Stand sa 17 o higit pa."
+          "en": "Players finish all hands before dealer resolution. The dealer Hits below 17 and Stands on 17 or higher, including soft 17.",
+          "hi": "Dealer resolution से पहले players अपने सभी hands पूरे करते हैं. Dealer 17 से कम पर Hit और 17 या अधिक पर Stand करता है, soft 17 पर भी Stand.",
+          "es": "Los jugadores terminan todas sus manos antes de la resolución del dealer. El dealer hace Hit por debajo de 17 y Stand con 17 o más, incluido soft 17.",
+          "pt": "Os jogadores terminam todas as mãos antes da resolução do dealer. O dealer faz Hit abaixo de 17 e Stand em 17 ou mais, inclusive soft 17.",
+          "bn": "Dealer resolution-এর আগে players সব hands শেষ করে. Dealer 17-এর নিচে Hit এবং 17 বা বেশি হলে Stand করে, soft 17-তেও Stand.",
+          "fil": "Tinatapos ng players ang lahat ng hands bago ang dealer resolution. Hit ang dealer kapag mas mababa sa 17 at Stand sa 17 o higit pa, kasama ang soft 17."
         },
         "actions": {
-          "en": "Hit takes another card. Stand ends action on the current hand. Double Down doubles the wager, deals exactly one more card, and then stands. Split is available on two cards of the same rank when you can place another equal wager. Insurance is offered when the dealer shows an Ace. Surrender ends an eligible original two-card hand and returns half the wager.",
-          "hi": "Hit = एक और card. Stand = current hand समाप्त. Double Down = bet दोगुना, ठीक एक card, फिर automatic stand. Split = समान rank के दो cards और पर्याप्त chips होने पर दो hands. Insurance = dealer Ace दिखाए तो उपलब्ध. Surrender = eligible original two-card hand छोड़कर आधा wager वापस.",
-          "es": "Hit toma una carta. Stand termina la mano. Double Down duplica la apuesta, entrega exactamente una carta y se planta. Split divide dos cartas del mismo rango si hay fichas suficientes. Insurance se ofrece cuando el dealer muestra un As. Surrender devuelve la mitad de la apuesta en una mano original elegible.",
-          "pt": "Hit compra uma carta. Stand encerra a mão. Double Down dobra a aposta, compra exatamente uma carta e para. Split divide duas cartas do mesmo rank com fichas suficientes. Insurance aparece quando o dealer mostra Ás. Surrender devolve metade da aposta em uma mão original elegível.",
-          "bn": "Hit = আরেকটি card. Stand = current hand শেষ. Double Down = bet দ্বিগুণ, ঠিক একটি card, তারপর stand. Split = same rank-এর দুই card ও যথেষ্ট chips থাকলে দুই hand. Insurance = dealer Ace দেখালে. Surrender = eligible original two-card hand ছেড়ে অর্ধেক wager ফেরত.",
-          "fil": "Hit = kumuha ng card. Stand = tapusin ang current hand. Double Down = doblehin ang bet, kumuha ng eksaktong isang card, pagkatapos Stand. Split = hatiin ang dalawang same-rank cards kung sapat ang chips. Insurance = kapag Ace ang visible dealer card. Surrender = tapusin ang eligible original two-card hand at ibalik ang kalahati ng wager."
+          "en": "Hit takes another card. Stand ends play on that hand. An eligible, funded Double Down doubles that hand's committed wager, deals exactly one card, then automatically Stands. Two same-rank starting cards may Split when funded, creating two independently played hands with separate committed wagers. Split Aces get one card each and automatically Stand. Surrender on an eligible original two-card hand refunds half; the other half becomes transferable committed stake.",
+          "hi": "Hit एक और card लेता है. Stand उस hand का play समाप्त करता है. Eligible और funded Double Down उस hand का committed wager दोगुना करता है, ठीक एक card देता है, फिर automatic Stand. समान rank के दो starting cards पर्याप्त funds पर Split होकर अलग committed wagers वाले दो स्वतंत्र hands बनाते हैं. Split Aces को एक-एक card मिलता है और वे automatic Stand करते हैं. Eligible original two-card hand पर Surrender में आधा refund और बाकी आधा transferable committed stake बनता है.",
+          "es": "Hit toma otra carta. Stand termina esa mano. Un Double Down elegible y con fondos duplica el wager comprometido de esa mano, da exactamente una carta y luego hace Stand automático. Dos cartas iniciales del mismo rango pueden hacer Split con fondos suficientes, creando dos manos independientes con wagers separados. Los Aces divididos reciben una carta cada uno y hacen Stand automático. Surrender en una mano original elegible de dos cartas reembolsa la mitad; la otra mitad pasa a ser stake comprometido transferible.",
+          "pt": "Hit compra outra carta. Stand encerra essa mão. Um Double Down elegível e com fundos dobra o wager comprometido da mão, dá exatamente uma carta e depois faz Stand automático. Duas cartas iniciais do mesmo rank podem fazer Split com fundos suficientes, criando duas mãos independentes com wagers separados. Aces divididos recebem uma carta cada e fazem Stand automático. Surrender numa mão original elegível de duas cartas reembolsa metade; a outra metade vira stake comprometido transferível.",
+          "bn": "Hit আরেকটি card নেয়. Stand সেই hand-এর play শেষ করে. Eligible ও funded Double Down সেই hand-এর committed wager দ্বিগুণ করে, ঠিক একটি card দেয়, তারপর automatic Stand. একই rank-এর দুই starting cards যথেষ্ট funds থাকলে Split হয়ে আলাদা committed wager-সহ দুইটি স্বাধীন hand তৈরি করে. Split Aces একট করে card পায় এবং automatic Stand করে. Eligible original two-card hand-এ Surrender করলে অর্ধেক refund হয়; বাকি অর্ধেক transferable committed stake হয়.",
+          "fil": "Hit ay kumukuha ng isa pang card. Stand ay nagtatapos ng play sa hand. Ang eligible at funded na Double Down ay nagdodoble ng committed wager ng hand, nagbibigay ng eksaktong isang card, at awtomatikong Stand. Maaaring i-Split ang dalawang same-rank starting cards kapag sapat ang funds, na lumilikha ng dalawang hiwalay na hands at wagers. Ang Split Aces ay tig-isang card at awtomatikong Stand. Sa Surrender ng eligible original two-card hand, kalahati ang refund at ang natitirang kalahati ay transferable committed stake."
         },
         "winning": {
-          "en": "You win if your valid total is higher than the dealer's, or if the dealer Busts while you do not. Equal valid totals are a Push.",
-          "hi": "यदि आपका valid total dealer से अधिक है, या dealer bust करता है और आप नहीं, तो आप जीतते हैं. बराबर total Push है.",
-          "es": "Ganas si tu total válido supera al dealer o si el dealer Bust y tú no. Totales iguales producen Push.",
-          "pt": "Você vence se seu total válido for maior que o do dealer ou se o dealer Bust e você não. Totais iguais são Push.",
-          "bn": "আপনার valid total dealer-এর চেয়ে বেশি হলে, বা dealer Bust করলে এবং আপনি না করলে জয়. সমান হলে Push.",
-          "fil": "Panalo kung mas mataas ang valid total mo kaysa dealer o kung Bust ang dealer at ikaw ay hindi. Kapag pareho ang total, Push."
+          "en": "Dealer results determine Win, Lose, or Push. If nobody beats the dealer, the strongest surviving non-Bust, non-Surrender hand is the fallback competitive winner: highest valid total, with natural Blackjack priority among equal totals. Multiple eligible winners share by settlement weighting.",
+          "hi": "Dealer result Win, Lose या Push तय करता है. यदि कोई dealer को नहीं हराता, तो सबसे मजबूत बचा हुआ non-Bust, non-Surrender hand fallback competitive winner है: highest valid total, और बराबरी में natural Blackjack को priority. कई eligible winners settlement weighting से share करते हैं.",
+          "es": "El resultado contra el dealer determina Win, Lose o Push. Si nadie vence al dealer, la mano sobreviviente más fuerte que no tenga Bust ni Surrender es el fallback winner: mayor total válido y prioridad para natural Blackjack entre empates. Varios ganadores elegibles comparten según el peso de liquidación.",
+          "pt": "O resultado contra o dealer define Win, Lose ou Push. Se ninguém vencer o dealer, a mão sobrevivente mais forte sem Bust nem Surrender será o fallback winner: maior total válido, com prioridade para natural Blackjack nos empates. Vários vencedores elegíveis dividem pelo peso da liquidação.",
+          "bn": "Dealer result Win, Lose বা Push নির্ধারণ করে. কেউ dealer-কে হারাতে না পারলে সবচেয়ে শক্তিশালী surviving non-Bust, non-Surrender hand fallback competitive winner: highest valid total, এবং সমান হলে natural Blackjack priority পায়. একাধিক eligible winner settlement weighting অনুযায়ী ভাগ করে.",
+          "fil": "Dealer result ang nagtatakda ng Win, Lose o Push. Kung walang tumalo sa dealer, ang pinakamalakas na surviving non-Bust at non-Surrender hand ang fallback competitive winner: pinakamataas na valid total, at priority ang natural Blackjack sa tabla. Hahatiin ng maraming eligible winners ayon sa settlement weighting."
         },
         "scoring": {
-          "en": "A normal win pays 1:1. A natural two-card Blackjack pays 3:2. A 21 made after splitting is a normal win, not a natural Blackjack. Insurance pays 2:1 profit when the dealer has Blackjack. A Push returns the wager. Surrender returns half the wager.",
-          "hi": "Normal win 1:1. Natural two-card Blackjack 3:2. Split के बाद 21 normal win है, natural Blackjack नहीं. Insurance 2:1 profit. Push में wager वापस. Surrender में आधा wager वापस.",
-          "es": "Victoria normal 1:1. Blackjack natural de dos cartas 3:2. Un 21 después de Split es victoria normal. Insurance paga beneficio 2:1. Push devuelve la apuesta. Surrender devuelve la mitad.",
-          "pt": "Vitória normal 1:1. Blackjack natural de duas cartas 3:2. 21 após Split é vitória normal. Insurance paga lucro 2:1. Push devolve a aposta. Surrender devolve metade.",
-          "bn": "Normal win 1:1. Natural two-card Blackjack 3:2. Split-এর পরে 21 normal win. Insurance 2:1 profit. Push-এ wager ফেরত. Surrender-এ অর্ধেক ফেরত.",
-          "fil": "Normal win 1:1. Natural two-card Blackjack 3:2. Ang 21 pagkatapos ng Split ay normal win. Insurance = 2:1 profit. Push = balik wager. Surrender = kalahati ng wager."
+          "en": "Every hand contributes player-committed stake. A Win or Push protects its own eligible stake; Push money is never raked or transferred. Losing and surrendered transferable stake forms the player-funded pool. Victory World takes 5% rake only from that money when it is actually distributed, then allocates the remainder among competitive winners without ever exceeding the pool. Natural Blackjack means exactly two cards totaling 21 and receives 1.5x settlement weight, not a house-funded 3:2 payout; a Split-hand 21 is not natural.",
+          "hi": "हर hand player-committed stake देता है. Win या Push अपना eligible stake बचाता है; Push money पर कभी rake या transfer नहीं होता. Losing और surrendered transferable stake player-funded pool बनाता है. Victory World केवल वास्तव में distribute होने वाली उस राशि से 5% rake लेता है और बाकी competitive winners में बाँटता है; distribution pool से अधिक नहीं हो सकता. Natural Blackjack ठीक दो cards में 21 है और उसे 1.5x settlement weight मिलता है, house-funded 3:2 payout नहीं; Split-hand 21 natural नहीं है.",
+          "es": "Cada mano aporta stake comprometido por el jugador. Win o Push protege su propio stake elegible; el dinero Push nunca lleva rake ni se transfiere. El stake transferible perdido o surrendered forma el fondo player-funded. Victory World cobra 5% de rake solo de ese dinero cuando se distribuye y reparte el resto entre ganadores competitivos sin superar el fondo. Natural Blackjack son exactamente dos cartas que suman 21 y recibe peso 1.5x, no un pago 3:2 financiado por la casa; un 21 tras Split no es natural.",
+          "pt": "Cada mão contribui stake comprometido pelo jogador. Win ou Push protege seu stake elegível; dinheiro de Push nunca sofre rake nem transferência. Stake transferível perdido ou surrendered forma o pool player-funded. Victory World cobra 5% de rake apenas desse dinheiro quando distribuído e reparte o restante entre vencedores sem exceder o pool. Natural Blackjack são exatamente duas cartas somando 21 e recebe peso 1,5x, não pagamento 3:2 da casa; 21 após Split não é natural.",
+          "bn": "প্রতিটি hand player-committed stake দেয়. Win বা Push নিজের eligible stake রক্ষা করে; Push money কখনও rake বা transfer হয় না. Losing ও surrendered transferable stake player-funded pool তৈরি করে. Victory World শুধু বাস্তবে distribute হওয়া সেই অর্থ থেকে 5% rake নেয় এবং pool-এর বেশি না দিয়ে বাকি অংশ competitive winners-কে দেয়. Natural Blackjack মানে ঠিক দুই cards-এ 21 এবং 1.5x settlement weight, house-funded 3:2 payout নয়; Split-hand 21 natural নয়.",
+          "fil": "Bawat hand ay may player-committed stake. Pinoprotektahan ng Win o Push ang sariling eligible stake; hindi kailanman nira-rake o inililipat ang Push money. Ang losing at surrendered transferable stake ang player-funded pool. Kumukuha ang Victory World ng 5% rake mula lamang sa perang aktuwal na ipinamamahagi, saka hinahati ang natira sa competitive winners nang hindi lalampas sa pool. Natural Blackjack ay eksaktong dalawang cards na total 21 at may 1.5x settlement weight, hindi house-funded 3:2 payout; hindi natural ang Split-hand 21."
         },
         "specialRules": {
-          "en": "Double Down is available only on an eligible two-card hand with enough chips. Split requires two cards of the same rank. Insurance costs half the original wager. In multiplayer, the next wager can be selected at 1x, 2x, 5x, or 10x the room bet when sufficient chips are available.",
-          "hi": "Double Down केवल eligible two-card hand और पर्याप्त chips पर. Split के लिए समान rank चाहिए. Insurance original wager का आधा है. Multiplayer में अगले wager के लिए room bet का 1x, 2x, 5x या 10x चुना जा सकता है.",
-          "es": "Double Down requiere una mano elegible de dos cartas y fichas suficientes. Split requiere mismo rango. Insurance cuesta la mitad de la apuesta original. En multiplayer puedes elegir 1x, 2x, 5x o 10x la apuesta de la sala para la siguiente ronda.",
-          "pt": "Double Down exige mão elegível de duas cartas e fichas suficientes. Split exige mesmo rank. Insurance custa metade da aposta original. No multiplayer, a próxima aposta pode ser 1x, 2x, 5x ou 10x a aposta da sala.",
-          "bn": "Double Down শুধুমাত্র eligible two-card hand ও যথেষ্ট chips-এ. Split-এর জন্য same rank. Insurance original wager-এর অর্ধেক. Multiplayer-এ next wager room bet-এর 1x, 2x, 5x বা 10x.",
-          "fil": "Double Down ay para lang sa eligible two-card hand na may sapat na chips. Split ay nangangailangan ng same rank. Insurance ay kalahati ng original wager. Sa multiplayer, maaaring pumili ng 1x, 2x, 5x o 10x room bet para sa susunod na wager."
+          "en": "If there are no competitive winners, everyone Busts or Surrenders, or the engine is effectively isolated with one player, remaining committed player money is refunded and rake is zero. In multiplayer, choose the next wager at 1x, 2x, 5x, or 10x the room bet when funded. Rebuy is available only between rounds when below the minimum bet; game rules control allowed amounts, and a rebought sitting-out player returns on a later eligible round, never mid-hand.",
+          "hi": "यदि कोई competitive winner नहीं है, सभी Bust/Surrender करते हैं, या engine केवल एक player के साथ effectively isolated है, तो बाकी committed player money refund होता है और rake zero. Multiplayer में पर्याप्त chips पर अगला wager room bet का 1x, 2x, 5x या 10x चुनें. Rebuy केवल rounds के बीच minimum bet से कम chips पर उपलब्ध है; allowed amounts game तय करता है, और rebought sitting-out player किसी बाद के eligible round में लौटता है, active hand के बीच नहीं.",
+          "es": "Si no hay ganadores competitivos, todos hacen Bust/Surrender o el motor queda efectivamente aislado con un solo jugador, se reembolsa el dinero comprometido restante y el rake es cero. En multiplayer el siguiente wager puede ser 1x, 2x, 5x o 10x la apuesta de sala con fondos suficientes. Rebuy solo está disponible entre rondas al no alcanzar la apuesta mínima; el juego fija los importes y el jugador sitting-out vuelve en una ronda elegible posterior, nunca a mitad de mano.",
+          "pt": "Se não houver vencedores competitivos, todos fizerem Bust/Surrender ou o motor estiver efetivamente isolado com um jogador, o dinheiro comprometido restante é devolvido e o rake é zero. No multiplayer, escolha 1x, 2x, 5x ou 10x a aposta da sala com fundos suficientes. Rebuy só ocorre entre rodadas quando não há chips para a aposta mínima; o jogo define valores e o jogador sitting-out retorna numa rodada elegível posterior, nunca no meio da mão.",
+          "bn": "Competitive winner না থাকলে, সবাই Bust/Surrender করলে, বা engine এক player নিয়ে effectively isolated হলে, বাকি committed player money refund হয় এবং rake zero. Multiplayer-এ যথেষ্ট chips থাকলে next wager room bet-এর 1x, 2x, 5x বা 10x. Rebuy শুধু rounds-এর মাঝে minimum bet-এর chips না থাকলে; allowed amount game ঠিক করে, এবং rebought sitting-out player পরের eligible round-এ ফেরে, active hand-এর মাঝে নয়.",
+          "fil": "Kung walang competitive winner, lahat ay Bust/Surrender, o effectively isolated ang engine sa isang player, nire-refund ang natitirang committed player money at zero ang rake. Sa multiplayer, piliin ang next wager na 1x, 2x, 5x o 10x room bet kapag sapat ang chips. Rebuy ay sa pagitan lang ng rounds kapag kulang sa minimum bet; game ang nagtatakda ng halaga at babalik ang rebought sitting-out player sa susunod na eligible round, hindi mid-hand."
         }
       },
       "howToPlay": {
         "gettingStarted": {
-          "en": "Review your starting cards and the dealer's visible card, then choose the best available action.",
-          "hi": "अपने starting cards और dealer का visible card देखें और उपलब्ध best action चुनें.",
-          "es": "Mira tus cartas iniciales y la carta visible del dealer y elige la mejor acción disponible.",
-          "pt": "Veja suas cartas iniciais e a carta visível do dealer e escolha a melhor ação disponível.",
-          "bn": "নিজের starting cards এবং dealer-এর visible card দেখে best action বেছে নিন.",
-          "fil": "Tingnan ang starting cards at visible dealer card at piliin ang pinakamahusay na available action."
+          "en": "Commit a wager, review your starting cards and the dealer's visible card, then choose an available action. Each hand's commitment is tracked separately for player-funded settlement.",
+          "hi": "Wager commit करें, अपने starting cards और dealer का visible card देखें, फिर available action चुनें. Player-funded settlement के लिए हर hand का commitment अलग track होता है.",
+          "es": "Compromete un wager, revisa tus cartas iniciales y la carta visible del dealer y elige una acción disponible. El compromiso de cada mano se registra por separado para la liquidación player-funded.",
+          "pt": "Comprometa um wager, veja suas cartas iniciais e a carta visível do dealer e escolha uma ação disponível. O compromisso de cada mão é rastreado separadamente para a liquidação player-funded.",
+          "bn": "Wager commit করুন, starting cards ও dealer-এর visible card দেখুন, তারপর available action নিন. Player-funded settlement-এর জন্য প্রতিটি hand-এর commitment আলাদাভাবে track হয়.",
+          "fil": "Mag-commit ng wager, tingnan ang starting cards at visible dealer card, at pumili ng available action. Hiwalay na tina-track ang commitment ng bawat hand para sa player-funded settlement."
         },
         "stepByStep": {
-          "en": "1. Receive your starting hand. 2. Choose Hit, Stand, Double Down, Split, Insurance, or Surrender when available. 3. Finish each of your active hands. 4. The dealer draws according to the dealer rule. 5. Each hand is settled as Win, Lose, Push, or Surrender.",
-          "hi": "1. Starting hand लें. 2. उपलब्ध होने पर Hit, Stand, Double Down, Split, Insurance या Surrender चुनें. 3. सभी active hands पूरा करें. 4. Dealer rule के अनुसार cards लेता है. 5. हर hand Win, Lose, Push या Surrender होता है.",
-          "es": "1. Recibe la mano inicial. 2. Usa Hit, Stand, Double Down, Split, Insurance o Surrender cuando estén disponibles. 3. Completa cada mano. 4. El dealer juega según su regla. 5. Cada mano termina Win, Lose, Push o Surrender.",
-          "pt": "1. Receba a mão inicial. 2. Use Hit, Stand, Double Down, Split, Insurance ou Surrender quando disponíveis. 3. Termine cada mão. 4. O dealer joga pela regra. 5. Cada mão termina Win, Lose, Push ou Surrender.",
-          "bn": "1. Starting hand নিন. 2. Available হলে Hit, Stand, Double Down, Split, Insurance বা Surrender. 3. Active hands শেষ করুন. 4. Dealer rule অনুযায়ী খেলে. 5. প্রতিটি hand Win, Lose, Push বা Surrender হয়.",
-          "fil": "1. Tanggapin ang starting hand. 2. Piliin ang Hit, Stand, Double Down, Split, Insurance o Surrender kapag available. 3. Tapusin ang bawat active hand. 4. Maglalaro ang dealer ayon sa dealer rule. 5. Bawat hand ay Win, Lose, Push o Surrender."
+          "en": "1. Commit the wager and receive two cards. 2. Choose Hit, Stand, Double Down, Split, or Surrender when eligible. 3. Finish every active hand. 4. Dealer Hits below 17 and Stands on all 17s. 5. Protect Win/Push stakes, form the pool from transferable losses, take any applicable 5% rake, and distribute only player-funded money by settlement weight.",
+          "hi": "1. Wager commit करके दो cards लें. 2. Eligible होने पर Hit, Stand, Double Down, Split या Surrender चुनें. 3. हर active hand पूरा करें. 4. Dealer 17 से कम पर Hit और हर 17 पर Stand करता है. 5. Win/Push stake सुरक्षित करें, transferable losses से pool बनाएँ, लागू 5% rake लें और केवल player-funded money settlement weight से बाँटें.",
+          "es": "1. Compromete el wager y recibe dos cartas. 2. Elige Hit, Stand, Double Down, Split o Surrender cuando sea elegible. 3. Termina cada mano activa. 4. El dealer hace Hit bajo 17 y Stand en todo 17. 5. Protege stakes Win/Push, forma el fondo con pérdidas transferibles, aplica el rake de 5% cuando corresponda y distribuye solo dinero player-funded por peso.",
+          "pt": "1. Comprometa o wager e receba duas cartas. 2. Escolha Hit, Stand, Double Down, Split ou Surrender quando elegível. 3. Termine cada mão ativa. 4. Dealer faz Hit abaixo de 17 e Stand em todo 17. 5. Proteja stakes Win/Push, forme o pool com perdas transferíveis, aplique rake de 5% quando cabível e distribua apenas dinheiro player-funded por peso.",
+          "bn": "1. Wager commit করে দুই cards নিন. 2. Eligible হলে Hit, Stand, Double Down, Split বা Surrender নিন. 3. সব active hand শেষ করুন. 4. Dealer 17-এর নিচে Hit এবং সব 17-এ Stand করে. 5. Win/Push stakes রক্ষা করুন, transferable losses দিয়ে pool বানান, প্রযোজ্য 5% rake নিন এবং শুধু player-funded money settlement weight-এ দিন.",
+          "fil": "1. I-commit ang wager at tumanggap ng dalawang cards. 2. Piliin ang Hit, Stand, Double Down, Split o Surrender kapag eligible. 3. Tapusin lahat ng active hands. 4. Hit ang dealer sa ibaba 17 at Stand sa lahat ng 17. 5. Protektahan ang Win/Push stakes, buuin ang pool mula sa transferable losses, kunin ang naaangkop na 5% rake, at ipamahagi lamang ang player-funded money ayon sa weight."
         },
         "beginnerTips": {
-          "en": "Remember that Aces automatically adjust between 11 and 1 when necessary. Going over 21 is an immediate Bust regardless of what the dealer later draws.",
-          "hi": "Ace जरूरत के अनुसार 11 से 1 हो जाता है. 21 से ऊपर जाने पर तुरंत Bust होता है, चाहे dealer बाद में क्या draw करे.",
-          "es": "Los Ases cambian automáticamente entre 11 y 1 cuando es necesario. Superar 21 es Bust inmediato.",
-          "pt": "O Ás muda automaticamente entre 11 e 1 quando necessário. Passar de 21 é Bust imediato.",
-          "bn": "Ace প্রয়োজনে 11 থেকে 1 হয়. 21 ছাড়ালেই সঙ্গে সঙ্গে Bust.",
-          "fil": "Awtomatikong nag-a-adjust ang Ace sa 11 o 1 kapag kailangan. Kapag lumampas sa 21, Bust agad."
+          "en": "Example: A commits 100 and B commits 100. A wins, so A's 100 is protected. B loses, making 100 transferable; 5% rake is 5 and 95 transfers to A. A receives 195 from the 200 player-funded pool; Victory World contributes 0.",
+          "hi": "Example: A और B 100-100 commit करते हैं. A जीतता है, इसलिए A का 100 सुरक्षित. B का losing 100 transferable है; 5% rake = 5 और 95 A को transfer. A को 200 के player-funded pool से 195 मिलते हैं; Victory World का योगदान 0.",
+          "es": "Ejemplo: A y B comprometen 100 cada uno. A gana y protege sus 100. Los 100 perdidos por B son transferibles; rake de 5% = 5 y 95 pasan a A. A recibe 195 del fondo player-funded de 200; Victory World aporta 0.",
+          "pt": "Exemplo: A e B comprometem 100 cada. A vence e protege seus 100. Os 100 perdidos por B são transferíveis; rake de 5% = 5 e 95 vão para A. A recebe 195 do pool player-funded de 200; Victory World contribui 0.",
+          "bn": "Example: A ও B প্রত্যেকে 100 commit করে. A জেতে, তাই A-এর 100 protected. B-এর losing 100 transferable; 5% rake = 5 এবং 95 A-কে transfer হয়. 200-এর player-funded pool থেকে A 195 পায়; Victory World দেয় 0.",
+          "fil": "Halimbawa: Nag-commit sina A at B ng tig-100. Nanalo si A kaya protected ang 100 niya. Transferable ang losing 100 ni B; 5% rake = 5 at 95 ang ililipat kay A. Tatanggap si A ng 195 mula sa 200 player-funded pool; 0 ang ambag ng Victory World."
         }
       },
       "gameModes": {
         "practice": {
-          "en": "Practice mode lets you learn Blackjack against the dealer without joining a public multiplayer room.",
-          "hi": "Practice mode में public multiplayer room में गए बिना dealer के खिलाफ Blackjack सीख सकते हैं.",
-          "es": "Practice permite aprender contra el dealer sin entrar en una sala pública.",
-          "pt": "Practice permite aprender contra o dealer sem entrar em sala pública.",
-          "bn": "Practice mode-এ public room ছাড়া dealer-এর বিরুদ্ধে Blackjack শেখা যায়.",
-          "fil": "Practice mode ay para matutunan ang Blackjack laban sa dealer nang hindi pumapasok sa public room."
+          "en": "Practice teaches Blackjack without joining multiplayer. Simulated opponents supply the other player-funded stakes so the same core competitive settlement behavior is represented.",
+          "hi": "Practice multiplayer join किए बिना Blackjack सिखाता है. Simulated opponents अन्य player-funded stakes देते हैं ताकि वही core competitive settlement behavior दिखे.",
+          "es": "Practice enseña Blackjack sin entrar en multiplayer. Oponentes simulados aportan los demás stakes player-funded para representar el mismo comportamiento central de liquidación competitiva.",
+          "pt": "Practice ensina Blackjack sem entrar no multiplayer. Oponentes simulados fornecem os outros stakes player-funded para representar o mesmo comportamento central de liquidação competitiva.",
+          "bn": "Practice multiplayer-এ না গিয়ে Blackjack শেখায়. Simulated opponents অন্য player-funded stakes দেয়, যাতে একই core competitive settlement behavior দেখা যায়.",
+          "fil": "Itinuturo ng Practice ang Blackjack nang hindi sumasali sa multiplayer. Ang simulated opponents ang nagbibigay ng ibang player-funded stakes upang katawanin ang parehong core competitive settlement behavior."
         },
         "privateRoom": {
-          "en": "Create a private room and invite friends with the room code. The chosen player count is the room capacity. The host may start once the minimum requirement is met. Players may join available seats later at the next valid round.",
-          "hi": "Private Room बनाएँ और room code से दोस्तों को बुलाएँ. चुनी गई player count capacity है. Minimum players होने पर host शुरू कर सकता है. Late joiners अगले valid round में प्रवेश करते हैं.",
-          "es": "Crea una sala privada y comparte el código. La cantidad seleccionada es la capacidad. El host puede comenzar al alcanzar el mínimo y los late joiners entran en la siguiente ronda válida.",
-          "pt": "Crie uma sala privada e compartilhe o código. O número selecionado é a capacidade. O host inicia com o mínimo e late joiners entram na próxima rodada válida.",
-          "bn": "Private Room তৈরি করে code দিন. Player count হলো capacity. Minimum players হলে host শুরু করতে পারে. Late joiners পরের valid round-এ যোগ দেয়.",
-          "fil": "Gumawa ng private room at ibahagi ang code. Ang player count ay capacity. Maaaring magsimula ang host kapag umabot sa minimum at late joiners ay papasok sa susunod na valid round."
+          "en": "The selected player count is room capacity, not required starting attendance. The host may start after the minimum is met. Late players may take open seats but begin only with the next valid round; they never enter an active Blackjack round.",
+          "hi": "Selected player count room capacity है, required starting attendance नहीं. Minimum पूरा होने पर host शुरू कर सकता है. Late players open seats ले सकते हैं, लेकिन केवल अगले valid round से; active Blackjack round में कभी नहीं.",
+          "es": "La cantidad seleccionada es la capacidad, no la asistencia inicial requerida. El host puede empezar al alcanzar el mínimo. Los late players pueden ocupar asientos libres, pero comienzan en la siguiente ronda válida, nunca en una ronda activa.",
+          "pt": "O número selecionado é a capacidade, não a presença inicial obrigatória. O host pode iniciar ao atingir o mínimo. Late players podem ocupar vagas, mas começam apenas na próxima rodada válida, nunca numa rodada ativa.",
+          "bn": "Selected player count হলো room capacity, required starting attendance নয়. Minimum পূরণ হলে host শুরু করতে পারে. Late players open seat নিতে পারে, কিন্তু শুধু পরের valid round-এ শুরু করে; active Blackjack round-এ নয়.",
+          "fil": "Ang selected player count ay room capacity, hindi required starting attendance. Maaaring magsimula ang host kapag naabot ang minimum. Maaaring umupo ang late players sa open seats ngunit sa susunod na valid round lang sila sasali, hindi sa active Blackjack round."
         },
         "publicOnline": {
-          "en": "Public Online matches available Blackjack players into a shared room where each player competes against the dealer.",
-          "hi": "Public Online उपलब्ध Blackjack players को shared room में match करता है जहाँ हर player dealer के खिलाफ खेलता है.",
-          "es": "Public Online agrupa jugadores disponibles en una sala compartida donde cada uno compite contra el dealer.",
-          "pt": "Public Online reúne jogadores disponíveis em uma sala compartilhada onde cada jogador enfrenta o dealer.",
-          "bn": "Public Online available Blackjack players-কে shared room-এ match করে যেখানে সবাই dealer-এর বিরুদ্ধে খেলে.",
-          "fil": "Public Online ay nagma-match ng available Blackjack players sa shared room kung saan bawat player ay laban sa dealer."
+          "en": "Public Online puts participating players in a shared game. Each Blackjack hand plays against the dealer, while money settles competitively among player hands using only their committed player-funded stakes.",
+          "hi": "Public Online participating players को shared game में रखता है. हर Blackjack hand dealer के विरुद्ध खेलता है, जबकि money settlement केवल committed player-funded stakes से player hands के बीच competitive होता है.",
+          "es": "Public Online reúne participantes en una partida compartida. Cada mano juega contra el dealer, mientras el dinero se liquida competitivamente entre manos usando solo sus stakes player-funded comprometidos.",
+          "pt": "Public Online reúne participantes num jogo compartilhado. Cada mão joga contra o dealer, enquanto o dinheiro é liquidado competitivamente entre mãos usando apenas os stakes player-funded comprometidos.",
+          "bn": "Public Online participating players-কে shared game-এ রাখে. প্রতিটি Blackjack hand dealer-এর বিরুদ্ধে খেলে, আর money settlement শুধু committed player-funded stakes দিয়ে player hands-এর মধ্যে competitive হয়.",
+          "fil": "Pinagsasama ng Public Online ang participating players sa shared game. Laban sa dealer ang bawat Blackjack hand, habang competitively nagsi-settle ang pera sa pagitan ng player hands gamit lamang ang committed player-funded stakes nila."
         }
       }
     },

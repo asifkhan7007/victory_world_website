@@ -1,0 +1,11 @@
+Victory World Ludo audio update
+
+ludo_dice_roll.wav
+- Converted from the dice MP3 supplied by the project owner on 2026-08-21.
+
+ludo_token_move.wav
+- Four-hop movement effect assembled from chip-lay-2.ogg.
+- Source collection: Kenney Casino Audio 1.1.
+- Creator: Kenney Vleugels (Kenney.nl).
+- License: Creative Commons Zero (CC0).
+- https://creativecommons.org/publicdomain/zero/1.0/
