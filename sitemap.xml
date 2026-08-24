@@ -34,4 +34,29 @@
     <loc>https://inricavw.com/terms.html</loc>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>https://inricavw.com/teen-patti.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://inricavw.com/rummy.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://inricavw.com/poker.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://inricavw.com/blackjack.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://inricavw.com/ludo.html</loc>
+    <priority>0.9</priority>
+  </url>
 </urlset>
+
