@@ -195,7 +195,7 @@
       return;
     }
 
-    if (/rules\.html|teen-patti\.html|how-to-play-teen-patti\.html|rummy\.html|poker\.html|blackjack\.html|ludo\.html|texas-holdem-poker\.html|omaha-poker\.html|five-card-plo\.html|sports-predictions\.html/i.test(absoluteUrl)) {
+    if (/rules\.html|teen-patti\.html|how-to-play-teen-patti\.html|rummy\.html|how-to-play-indian-rummy\.html|poker\.html|blackjack\.html|ludo\.html|texas-holdem-poker\.html|omaha-poker\.html|five-card-plo\.html|sports-predictions\.html/i.test(absoluteUrl)) {
       sendEvent('game_guide_click', {
         link_url: absoluteUrl,
         link_text: linkText
