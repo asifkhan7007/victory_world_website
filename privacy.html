@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- VW-ANALYTICS-BEGIN -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    var vwStoredAnalyticsConsent = null;
+    try {
+      vwStoredAnalyticsConsent = localStorage.getItem('vw_analytics_consent_v1');
+    } catch (error) {
+      vwStoredAnalyticsConsent = null;
+    }
+
+    gtag('consent', 'default', {
+      analytics_storage: vwStoredAnalyticsConsent === 'granted' ? 'granted' : 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      functionality_storage: 'granted',
+      security_storage: 'granted',
+      wait_for_update: 500
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T9E56JQJQ"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-8T9E56JQJQ', {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+  </script>
+  <script defer src="/js/vw-analytics.js"></script>
+  <!-- VW-ANALYTICS-END -->
   <meta charset="UTF-8">
 
   <meta
@@ -105,7 +137,7 @@
         </p>
 
         <div class="legal-meta">
-          <span>Last updated: August 4, 2026</span>
+          <span>Last updated: August 24, 2026</span>
           <span>21+ platform</span>
           <span>Development-stage policy</span>
         </div>
@@ -354,6 +386,24 @@
               before non-essential analytics or advertising technologies are
               used.
             </p>
+
+            <!-- VW-ANALYTICS-PRIVACY-BEGIN -->
+            <p>
+              The Victory World website uses Google Analytics 4 only after
+              a visitor allows analytics. Analytics helps us measure page
+              visits, Play Now selections, game-guide interactions, and APK
+              downloads. Advertising storage and ad personalization remain
+              disabled in this implementation.
+            </p>
+
+            <p>
+              Your analytics choice is stored locally in your browser. You
+              can change it at any time using the Analytics choices button.
+              Continuing without analytics does not prevent access to the
+              website or playable games. Google may process analytics data
+              according to its own privacy terms.
+            </p>
+            <!-- VW-ANALYTICS-PRIVACY-END -->
           </section>
 
           <section class="legal-section" id="retention">
