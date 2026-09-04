@@ -78,6 +78,15 @@
     href="css/style.css"
 >
 
+<style>
+  /* Keep a lone seventh game card centered on three-column layouts. */
+  @media (min-width: 980px) {
+    .premium-games-grid > .premium-game-card:last-child:nth-child(3n + 1) {
+      grid-column: 2;
+    }
+  }
+</style>
+
 <meta name="description" content="Play free multiplayer Teen Patti, Indian Rummy, Texas Holdem, Omaha, 5 Card PLO, Blackjack and Ludo, plus virtual-chip sports predictions on Victory World.">
   
   <!-- VW-SEO-BEGIN -->
@@ -459,7 +468,7 @@
     <div class="section-heading premium-section-heading">
       <p class="eyebrow">EXPLORE VICTORY WORLD</p>
 
-      <h2>Six games. One premium destination.</h2>
+      <h2>Seven games. One premium destination.</h2>
 
       <p>
         Discover card games, strategy games, multiplayer competition,
@@ -782,6 +791,52 @@
             Explore Sports Predictions
             <span>&rarr;</span>
           </a>
+        </div>
+      </article>
+
+      <article class="premium-game-card">
+        <div class="premium-game-image">
+          <img
+            src="assets/images/games/andar_bahar.png"
+            alt="Andar Bahar"
+          >
+
+          <div class="premium-game-overlay"></div>
+
+          <div class="premium-game-number">07</div>
+        </div>
+
+        <div class="premium-game-content">
+          <div class="premium-game-title">
+            <span>&#127183;</span>
+
+            <div>
+              <small>Pick a side</small>
+              <h3>Andar Bahar</h3>
+            </div>
+          </div>
+
+          <p>
+            Choose Andar or Bahar, follow every card, and enjoy quick,
+            social rounds with friends or online players.
+          </p>
+
+          <div class="premium-game-features">
+            <span>Quick Rounds</span>
+            <span>Practice Play</span>
+            <span>Multiplayer</span>
+          </div>
+
+          <div class="premium-game-actions">
+            <a class="premium-play-now" href="/play/?game=andar_bahar">
+              PLAY NOW
+            </a>
+
+            <a href="rules.html?game=andar_bahar">
+              Rules &amp; How to Play
+              <span>&rarr;</span>
+            </a>
+          </div>
         </div>
       </article>
     </div>
