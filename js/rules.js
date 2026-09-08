@@ -3,7 +3,7 @@
     "teen-patti",
     "rummy",
     "poker",
-    "blackjack",
+
     "ludo",
   ];
 
